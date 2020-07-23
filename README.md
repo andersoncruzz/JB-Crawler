@@ -1,4 +1,4 @@
-# Execução
+# Execução 
 
 ``` sh
 npm install
@@ -21,7 +21,7 @@ npm test
 O processo principal conta com o spread de N threads, sendo o número de thread definido pelo número de CPUs disponíveis.
 
 
-## PM2
+## PM2 (Desenvolvimento)
 É possível adicionar clusters em um gerenciador de processos, como o **PM2** 
 
 ```
@@ -30,7 +30,7 @@ npm install -g pm2
 pm2 start index.js -i max
 ```
 
-## Kubernetes (Minikube)
+## Kubernetes com Minikube (Produção)
 
 É possível também criar clusters em kubernetes, utilizei **Minikube** para facilitar o desenvolvimento.
 
