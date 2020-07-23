@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "describe": true,
+    "it": true,
+    "before": true,
+    "afterEach": true,
+    "beforeEach": true,
+    "after": true,
+    "request": true,
+    "expect": true,
+    "executeCreate": true,
+    "remove": true
+  },
+  "rules": {
+    "no-plusplus": "off",
+    "camelcase": "off",
+    "no-unused-expressions": "off",
+    "quote-props": [
+      "error",
+      "always"
+    ]
+  }
+}
