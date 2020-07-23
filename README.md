@@ -67,8 +67,8 @@ eval $(minikube docker-env -u)
 ### 3. Kubectl
 
 ```sh
- kubectl create -f kubernetes.yaml
+kubectl create -f kubernetes.yaml
 minikube tunnel
 ```
 
-O serviço estará exposto no IP exportado pelo tunnel, na porta **8080** por padrão
+O serviço estará exposto no IP do service mostrado no dashboard do Kubernete (`minikube dashboard`).
