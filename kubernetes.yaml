@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jbcrawler-app-deployment
+  labels:
+    app: jbcrawler-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jbcrawler-app
+  template:
+    metadata:
+      labels:
+        app: jbcrawler-app
+    spec:
+      containers:
+        - name: jbcrawler-app
+          image: jbcrawler:1.0.0
+          env:
+            - name: NODE_ENV
+              value: production
+          ports:
+            - containerPort: 8080
+              name: webinterface
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jbcrawler-app
+  labels:
+    service: jbcrawler-app
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+  selector:
+    app: jbcrawler-app
