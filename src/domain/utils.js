@@ -4,8 +4,8 @@ function normalizeHTMLString(str) {
     return str.replace(/[\n|\t]/g, '').replace(/ +/g, ' ').trim();
 }
 
-function getInnerText(page, selector) {
-    return normalizeHTMLString(page(selector).text());
+function getInnerText(page, selector, context) {
+    return normalizeHTMLString(page(selector, context).text());
 }
 
 function getEntities(page, selector, delimiter = ':') {

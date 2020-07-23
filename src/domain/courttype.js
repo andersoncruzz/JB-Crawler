@@ -4,6 +4,7 @@
 const Sanitizer = require('string-sanitizer');
 const pattern = /(\d{7})(\d{2})(\d{4})(\d)(\d{2})(\d{4})/;
 const {getInnerText, getEntities} = require('./utils');
+const log = require('../logger');
 
 const states = [
     {
@@ -12,8 +13,12 @@ const states = [
             'first': {
                 'url': (processId) => `https://www2.tjal.jus.br/cpopg/search.do?conversationId=&dadosConsulta.localPesquisa.cdLocal=-1&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsultaNuUnificado=${processId}`,
                 'parser': (page) => {
+
+                    const authorEntities = getEntities(page, '#tablePartesPrincipais > tbody > tr:nth-child(1)');
+                    const issuerEntities = getEntities(page, '#tablePartesPrincipais > tbody > tr:nth-child(2)');
+
                     return {
-                        'class': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td > span:nth-child(1)'),
+                        'classe': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td > span:nth-child(1)'),
                         'area': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(3) > td:nth-child(2) > table > tbody > tr > td > span'),
                         'assunto': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(4) > td:nth-child(2) > span'),
                         'data_distribuicao': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(6) > td:nth-child(2) > span'),
@@ -21,14 +26,18 @@ const states = [
                         'valor_acao': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(10) > td:nth-child(2) > span'),
                         'partes': {
                             'autor': {
-                                'nome': getEntities(page,'#tablePartesPrincipais > tbody > tr:nth-child(1)')['Autor'][0],
-                                'advogados': getEntities(page,'#tablePartesPrincipais > tbody > tr:nth-child(1)')['Advogado'],
+                                'nome': authorEntities['Autor'][0],
+                                'advogados': authorEntities['Advogado'],
                             },
                             're': {
-                                'nome': getEntities(page,'#tablePartesPrincipais > tbody > tr:nth-child(2)')['Ré'][0],
-                                'advogados': getEntities(page,'#tablePartesPrincipais > tbody > tr:nth-child(2)')['Advogado'],
+                                'nome': issuerEntities['Ré'][0],
+                                'advogados': issuerEntities['Advogado'],
                             }
                         },
+                        'movimentações': page('#tabelaTodasMovimentacoes > tr').toArray().map(item => ({
+                            'data': getInnerText(page, 'td:nth-child(1)', item),
+                            'movimento': getInnerText(page, 'td:nth-child(3)', item)
+                        })),
                     };
                 }
             },
