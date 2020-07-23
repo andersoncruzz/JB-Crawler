@@ -6,9 +6,15 @@ const {findStateFromTRCode} = require('../../../domain/courttype');
 async function find(processId) {
     const state = findStateFromTRCode(processId);
     const sanitizedProcessId = Sanitizer.sanitize(processId);
+
     const firstInstancePage = await client.navigate(state.instances.first.url(sanitizedProcessId));
     const firstInstanceParsedPage = cheerio.load(firstInstancePage);
-    return state.instances.first.parser(firstInstanceParsedPage);
+
+    const response = {
+        'primeiraInstancia': state.instances.first.parser(firstInstanceParsedPage)
+    };
+
+    return response;
 }
 
 module.exports = {

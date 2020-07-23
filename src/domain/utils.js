@@ -21,7 +21,29 @@ function getEntities(page, selector, delimiter = ':') {
         }
         entities[entityName].push(entityValue);
     }
-    return entities;
+
+    function gather(keyList, merge = false) {
+        if (Array.isArray(keyList)) {
+            if (merge) {
+                let merged = [];
+                for (const key of keyList) {
+                    if (key in entities) {
+                        merged = merged.concat(entities[key]);
+                    }
+                }
+                return merged;
+            } else {
+                for (const key of keyList) {
+                    if (key in entities) {
+                        return entities[key];
+                    }
+                }
+            }
+        }
+        return entities[keyList];
+    }
+
+    return gather;
 }
 
 module.exports = {

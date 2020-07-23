@@ -19,19 +19,59 @@ const states = [
 
                     return {
                         'classe': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td > span:nth-child(1)'),
-                        'area': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(3) > td:nth-child(2) > table > tbody > tr > td > span'),
+                        'area': getEntities(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(3) > td:nth-child(2) > table > tbody > tr > td')('Área')[0],
                         'assunto': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(4) > td:nth-child(2) > span'),
                         'data_distribuicao': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(6) > td:nth-child(2) > span'),
                         'juiz': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(9) > td:nth-child(2) > span'),
                         'valor_acao': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr:nth-child(10) > td:nth-child(2) > span'),
                         'partes': {
                             'autor': {
-                                'nome': authorEntities['Autor'][0],
-                                'advogados': authorEntities['Advogado'],
+                                'nome': authorEntities(['Autor', 'Autora'])[0],
+                                'advogados': authorEntities(['Advogado', 'Advogada'], true),
+                                'representantes': authorEntities(['RepreLeg']),
                             },
                             're': {
-                                'nome': issuerEntities['Ré'][0],
-                                'advogados': issuerEntities['Advogado'],
+                                'nome': issuerEntities(['Réu', 'Ré'])[0],
+                                'advogados': issuerEntities(['Advogado', 'Advogada'], true),
+                                'representantes': issuerEntities(['RepreLeg']),
+                            }
+                        },
+                        'movimentações': page('#tabelaTodasMovimentacoes > tr').toArray().map(item => ({
+                            'data': getInnerText(page, 'td:nth-child(1)', item),
+                            'movimento': getInnerText(page, 'td:nth-child(3)', item)
+                        })),
+                    };
+                },
+            },
+            'second': {},
+        },
+        'TR': '02',
+    },
+    {
+        'name': 'Mato Grosso do Sul', 'initials': 'MS', 'capital': 'Campo Grande',
+        'instances': {
+            'first': {
+                'url': (processId) => `https://esaj.tjms.jus.br/cpopg5/search.do?conversationId=&dadosConsulta.localPesquisa.cdLocal=-1&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsultaNuUnificado=${processId}&pbEnviar=Pesquisar`,
+                'parser': (page) => {
+                    const authorEntities = getEntities(page, '#tablePartesPrincipais > tbody > tr:nth-child(1)');
+                    const issuerEntities = getEntities(page, '#tablePartesPrincipais > tbody > tr:nth-child(2)');
+                    return {
+                        'classe': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr > td > span:nth-child(1) > span'),
+                        'area': getEntities(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr:nth-child(3) > td:nth-child(2) > table > tbody > tr > td')('Área')[0],
+                        'assunto': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr:nth-child(4) > td:nth-child(2) > span'),
+                        'data_distribuicao': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr:nth-child(5) > td:nth-child(2) > span'),
+                        'juiz': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr:nth-child(8) > td:nth-child(2) > span'),
+                        'valor_acao': getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr:nth-child(9) > td:nth-child(2) > span'),
+                        'partes': {
+                            'autor': {
+                                'nome': authorEntities(['Autor', 'Autora'])[0],
+                                'advogados': authorEntities(['Advogado', 'Advogada'], true),
+                                'representantes': authorEntities(['RepreLeg']),
+                            },
+                            'reu': {
+                                'nome': issuerEntities(['Réu', 'Ré'])[0],
+                                'advogados': issuerEntities(['Advogado', 'Advogada'], true),
+                                'representantes': issuerEntities(['RepreLeg']),
                             }
                         },
                         'movimentações': page('#tabelaTodasMovimentacoes > tr').toArray().map(item => ({
@@ -40,18 +80,6 @@ const states = [
                         })),
                     };
                 }
-            },
-            'second': {
-                'url': 'https://www2.tjal.jus.br/cposg5/open.do'
-            },
-        },
-        'TR': '02',
-    },
-    {
-        'name': 'Mato Grosso do Sul', 'initials': 'MS', 'capital': 'Campo Grande',
-        'instances': {
-            'first': {
-                'url': 'https://esaj.tjms.jus.br/cpopg5/open.do'
             },
             'second': {
                 'url': 'https://esaj.tjms.jus.br/cposg5/open.do',
