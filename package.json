@@ -18,6 +18,8 @@
     "express": "^4.17.1",
     "http-status": "^1.4.2",
     "nock": "^13.0.2",
+    "node-redis": "^0.1.7",
+    "redis": "^3.0.2",
     "string-sanitizer": "^1.1.1",
     "tough-cookie": "^4.0.0",
     "winston": "^3.3.3"
