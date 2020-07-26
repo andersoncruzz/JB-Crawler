@@ -14,6 +14,17 @@ spec:
       labels:
         app: jbcrawler-app
     spec:
+#      initContainers:
+#        - name: wait-for-redis
+#          image: darthcabs/tiny-tools:1
+#          args:
+#            - /bin/bash
+#            - -c
+#            - >
+#              while ! (printf "PING\n\r") | netcat -c redis 6379; do
+#              echo "Waiting redis..."
+#              sleep 2;
+#              done
       containers:
         - name: jbcrawler-app
           image: jbcrawler:1.0.0
