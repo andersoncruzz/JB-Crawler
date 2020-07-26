@@ -5,7 +5,6 @@ const server = require('./server');
 const log = require('./src/logger');
 const {version, name, description} = require('./package');
 
-
 const port = config.get('port');
 const cpus = os.cpus().length;
 

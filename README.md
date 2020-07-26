@@ -6,6 +6,14 @@ npm install
 npm start
 ```
 
+É possível adicionar a flag `--use-redis` para habilitar o storage do **redis** para servir de cache, o TTL padrão é 60 segundos.
+
+```sh
+npm install
+
+npm start --use-redis
+```
+
 
 # Testes
 
@@ -57,7 +65,7 @@ eval $(minikube docker-env)
 ### 2. Docker
 
 ```sh
-docker build -t jbcrawler
+docker build -t jbcrawler .
 docker tag jbcrawler jbcrawler:1.0.0
 
 # para retornar o Docker Daemon para o controle local

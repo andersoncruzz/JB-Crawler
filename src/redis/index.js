@@ -1,10 +1,13 @@
 const log = require('../logger');
 
-let wrap = async (requestUrl, processFunction) => {
-    return processFunction();
-}
+let exportable = {
+    wrap: async (requestUrl, processFunction) => {
+        return processFunction();
+    }
+};
 
 if (process.argv.indexOf('--use-redis') >= 0) {
+    log.info("NOTE: --use-redis flag detected, trying to start redis client.");
     const config = require('config');
     const client = require('redis').createClient(config.get('hosts.redis'));
 
@@ -14,18 +17,18 @@ if (process.argv.indexOf('--use-redis') >= 0) {
 
     client.on("connect", function () {
         log.info("Connected to redis.");
-        wrap = async (requestUrl, processFunction, ttl = 60) => {
+        exportable.wrap = async (requestUrl, processFunction, ttl = 60) => {
             return new Promise((res, rej) => {
                 client.get(requestUrl, (err, data) => {
                     if (err || data === null) {
                         processFunction().then(innerData => {
-                            client.set(requestUrl, innerData, 'EX', ttl * 60)
-                            res(data);
+                            client.set(requestUrl, innerData, 'EX', ttl)
+                            res(innerData);
                         }).catch(rej);
                     } else {
                         res(data);
                         processFunction().then(innerData => {
-                            client.set(requestUrl, innerData, 'EX', ttl * 60)
+                            client.set(requestUrl, innerData, 'EX', ttl)
                         }).catch(rej);
                     }
                 });
@@ -34,6 +37,4 @@ if (process.argv.indexOf('--use-redis') >= 0) {
     });
 }
 
-module.exports = {
-    wrap,
-}
+module.exports = exportable;
