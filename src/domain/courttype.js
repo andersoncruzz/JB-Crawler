@@ -51,7 +51,7 @@ const states = [
         'name': 'Mato Grosso do Sul', 'initials': 'MS', 'capital': 'Campo Grande',
         'instances': {
             'first': {
-                'url': (processId) => `https://esaj.tjms.jus.br/cpopg5/search.do?conversationId=&dadosConsulta.localPesquisa.cdLocal=-1&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsultaNuUnificado=${processId}`,
+                'url': (processId) => `https://esaj.tjms.jus.br/cpopg5/search.do?conversationId=&dadosConsulta.localPesquisa.cdLocal=-1&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsultaNuUnificado=${processId}&pbEnviar=Pesquisar`,
                 'parser': (page) => {
                     const authorEntities = getEntities(page, '#tablePartesPrincipais > tbody > tr:nth-child(1)');
                     const issuerEntities = getEntities(page, '#tablePartesPrincipais > tbody > tr:nth-child(2)');
