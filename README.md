@@ -24,12 +24,17 @@ npm test
 **Porta padrão**: 3000
 **Porta produção**: 8080 
 
+
+---
+> As etapas descritas abaixo são opcionais e são relativas somente à escalabilidade.
+---
+
 # Escalabilidade
 
 O processo principal conta com o spread de N threads, sendo o número de thread definido pelo número de CPUs disponíveis.
 
 
-## PM2 (Desenvolvimento)
+### PM2 (Desenvolvimento)
 É possível adicionar clusters em um gerenciador de processos, como o **PM2** 
 
 ```
@@ -38,12 +43,12 @@ npm install -g pm2
 pm2 start index.js -i max
 ```
 
-## Kubernetes com Minikube (Produção)
+### Kubernetes com Minikube (Produção)
 
 É possível também criar clusters em kubernetes, utilizei **Minikube** para facilitar o desenvolvimento.
 
 
-### 1. Minikube
+#### 1. Minikube
 
 Essa etapa é opcional, mas serve para executar kubernetes localmente, então a etapa do docker vai ter uma etapa extra para adicionar as etapas na própria VM do Kubernete que está sendo executado pelo Minikube
 
@@ -62,7 +67,7 @@ eval $(minikube docker-env)
 
 ```
 
-### 2. Docker
+#### 2. Docker
 
 ```sh
 docker build -t jbcrawler .
@@ -72,7 +77,7 @@ docker tag jbcrawler jbcrawler:1.0.0
 eval $(minikube docker-env -u)
 ```
 
-### 3. Kubectl
+#### 3. Kubectl
 
 ```sh
 kubectl create -f kubernetes.yaml
