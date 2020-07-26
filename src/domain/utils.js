@@ -10,7 +10,7 @@ function getInnerText(page, selector, context) {
 
 function getEntities(page, selector, delimiter = ':') {
     const text = page(selector).text().replace(/\n+/g, '<>').replace(/ +/, ' ').trim();
-    const shattered = [].concat.apply([], (text.split(':').map(e => e.split('<>').map(normalizeHTMLString).filter(e => e.length > 0))))
+    const shattered = [].concat.apply([], (text.split(delimiter).map(e => e.split('<>').map(normalizeHTMLString).filter(e => e.length > 0))))
 
     const entities = {};
     for (let i = 0; i < shattered.length; i += 2) {
