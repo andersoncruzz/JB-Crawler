@@ -1,0 +1,279 @@
+{
+  "primeiraInstancia": {
+    "processo": {
+      "classe": "Procedimento Comum Cível",
+      "area": "Cível",
+      "assunto": "Enquadramento",
+      "data_distribuicao": "30/07/2018",
+      "juiz": "Zidiel Infantino Coutinho",
+      "valor_acao": "R$ 10.000,00"
+    },
+    "partes": {
+      "exequente": {
+        "nome": "Leidi Silva Ormond Galvão",
+        "advogados": [
+          "Adriana Catelan Skowronski",
+          "Ana Silvia Pessoa Salgado de Moura"
+        ],
+        "representantes": null
+      },
+      "executado": {
+        "nome": "Estado de Mato Grosso do Sul",
+        "advogados": null,
+        "representantes": [
+          "Procuradoria Geral do Estado de Mato Grosso do Sul"
+        ]
+      }
+    },
+    "movimentacoes": [
+      {
+        "data": "17/07/2020",
+        "movimento": "Guia de Recolhimento Judicial Emitida Guia nº 001.1489757-12 - Taxa Judiciária - Lei 3.779/09"
+      },
+      {
+        "data": "30/06/2020",
+        "movimento": "Expedição de Termo Termo de Remessa - Tribunal de Justiça"
+      },
+      {
+        "data": "30/06/2020",
+        "movimento": "Remetidos os Autos para ao Tribunal de Justiça"
+      },
+      {
+        "data": "23/04/2020",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "23/04/2020",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.20.00949824-9Tipo da Petição: Contrarrazões de ApelaçãoData: 23/04/2020 17:00"
+      },
+      {
+        "data": "23/02/2020",
+        "movimento": "Certidão Cartorária Certidão de Intimação Eletrônica"
+      },
+      {
+        "data": "13/02/2020",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "13/02/2020",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "13/02/2020",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "17/12/2019",
+        "movimento": "Juntada de Apelação Nº Protocolo: WCGR.19.08529993-4Tipo da Petição: Recurso de ApelaçãoData: 17/12/2019 13:48"
+      },
+      {
+        "data": "25/11/2019",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0340/2019Data da Publicação: 26/11/2019Número do Diário: 4391"
+      },
+      {
+        "data": "25/11/2019",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0340/2019Teor do ato: Intimação acerca da r. sentença de fls. 779/786 ''Ante todo o exposto, julgo improcedentes os pedidos formulados na petição inicial, resolvendo o mérito nos termos do art. 487, inc. I e II, do Código de Processo Civil. Pela sucumbência, condeno as autoras ao pagamento de custas e despesas processuais, bem como honorários advocatícios em favor dos patronos do réu, arbitrados, nesta oportunidade, em 10% sobre o valor atualizado da causa, a ser rateado igualmente, nos termos do artigo 85, § 2º, do CPC. Ante a existência de indícios suficientes da capacidade econômica das requerentes, por se tratar de servidoras públicas com remuneração bem superior à média salarial brasileira (f. 30/62), revogo os benefícios da justiça gratuita concedidos às autoras em decisão inicial. Sem remessa necessária por ausência de condenação da Fazenda Pública. Transitada em julgado, arquivem-se, com as cautelas e anotações de estilo. Publique-se. Registre-se. Intime-se. Cumpra-se.''Advogados(s): Ana Silvia Pessoa Salgado de Moura (OAB 7317/MS), Adriana Catelan Skowronski (OAB 10227/MS)"
+      },
+      {
+        "data": "22/11/2019",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "22/11/2019",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "22/11/2019",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "22/11/2019",
+        "movimento": "Emissão da Relação Intimação acerca da r. sentença de fls. 779/786 ''Ante todo o exposto, julgo improcedentes os pedidos formulados na petição inicial, resolvendo o mérito nos termos do art. 487, inc. I e II, do Código de Processo Civil. Pela sucumbência, condeno as autoras ao pagamento de custas e despesas processuais, bem como honorários advocatícios em favor dos patronos do réu, arbitrados, nesta oportunidade, em 10% sobre o valor atualizado da causa, a ser rateado igualmente, nos termos do artigo 85, § 2º, do CPC. Ante a existência de indícios suficientes da capacidade econômica das requerentes, por se tratar de servidoras públicas com remuneração bem superior à média salarial brasileira (f. 30/62), revogo os benefícios da justiça gratuita concedidos às autoras em decisão inicial. Sem remessa necessária por ausência de condenação da Fazenda Pública. Transitada em julgado, arquivem-se, com as cautelas e anotações de estilo. Publique-se. Registre-se. Intime-se. Cumpra-se.''"
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Certidão Cartorária Certidão de Registro de Sentença"
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Registro de Sentença"
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Julgado improcedente o pedido Ante todo o exposto, julgo improcedentes os pedidos formulados na petição inicial, resolvendo o mérito nos termos do art. 487, inc. I e II, do Código de Processo Civil. Pela sucumbência, condeno as autoras ao pagamento de custas e despesas processuais, bem como honorários advocatícios em favor dos patronos do réu, arbitrados, nesta oportunidade, em 10% sobre o valor atualizado da causa, a ser rateado igualmente, nos termos do artigo 85, § 2º, do CPC. Ante a existência de indícios suficientes da capacidade econômica das requerentes, por se tratar de servidoras públicas com remuneração bem superior à média salarial brasileira (f. 30/62), revogo os benefícios da justiça gratuita concedidos às autoras em decisão inicial. Sem remessa necessária por ausência de condenação da Fazenda Pública. Transitada em julgado, arquivem-se, com as cautelas e anotações de estilo. Publique-se. Registre-se. Intime-se. Cumpra-se."
+      },
+      {
+        "data": "25/11/2018",
+        "movimento": "Informação do Sistema PJMS - Certidão de realização de consulta de repetiçaõ de ação"
+      },
+      {
+        "data": "25/11/2018",
+        "movimento": "Realizada pesquisa de suspeita de repetição de ação Nenhum processo localizado"
+      },
+      {
+        "data": "22/10/2018",
+        "movimento": "Em Cartório-p/ Escrivão/Diretor preparar Conclusão"
+      },
+      {
+        "data": "10/10/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.08405509-7Tipo da Petição: Manifestação do AutorData: 09/10/2018 14:59"
+      },
+      {
+        "data": "05/10/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0273/2018Data da Publicação: 08/10/2018Número do Diário: 4126"
+      },
+      {
+        "data": "05/10/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0273/2018Teor do ato: Especifiquem as partes, no prazo de 05 (cinco)dias, se há interesse em produção de provas, indicando-as erequerendo-as expressamente, a fim de se verificar apertinência e a necessidade delas. O silêncio importará nojulgamento antecipado do pedido.Advogados(s): Ana Silvia Pessoa Salgado de Moura (OAB 7317/MS), Adriana Catelan Skowronski (OAB 10227/MS)"
+      },
+      {
+        "data": "05/10/2018",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "05/10/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.01094686-9Tipo da Petição: Manifestação do Procurador da Fazenda Pública EstadualData: 05/10/2018 07:43"
+      },
+      {
+        "data": "04/10/2018",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "04/10/2018",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "04/10/2018",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "04/10/2018",
+        "movimento": "Emissão da Relação Especifiquem as partes, no prazo de 05 (cinco)dias, se há interesse em produção de provas, indicando-as erequerendo-as expressamente, a fim de se verificar apertinência e a necessidade delas. O silêncio importará nojulgamento antecipado do pedido."
+      },
+      {
+        "data": "25/09/2018",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "25/09/2018",
+        "movimento": "Proferido despacho de mero expediente Vistos. Especifiquem as partes, no prazo de 05 (cinco) dias, se há interesse em produção de provas, indicando-as e requerendo-as expressamente, a fim de se verificar a pertinência e a necessidade delas. O silêncio importará no julgamento antecipado do pedido. I-se. C-se."
+      },
+      {
+        "data": "24/09/2018",
+        "movimento": "Em Cartório-p/ Escrivão/Diretor preparar Conclusão"
+      },
+      {
+        "data": "20/09/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.08373775-5Tipo da Petição: Manifestação do AutorData: 20/09/2018 14:24"
+      },
+      {
+        "data": "29/08/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0241/2018Data da Publicação: 30/08/2018Número do Diário: 4100"
+      },
+      {
+        "data": "29/08/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0241/2018Teor do ato: Intimação da parte autora para, querendo, impugnar a contestação no prazo de 15 (quinze) dias.Advogados(s): Ana Silvia Pessoa Salgado de Moura (OAB 7317/MS), Adriana Catelan Skowronski (OAB 10227/MS)"
+      },
+      {
+        "data": "28/08/2018",
+        "movimento": "Emissão da Relação Intimação da parte autora para, querendo, impugnar a contestação no prazo de 15 (quinze) dias."
+      },
+      {
+        "data": "28/08/2018",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "28/08/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.01063520-0Tipo da Petição: ContestaçãoData: 28/08/2018 10:26"
+      },
+      {
+        "data": "14/08/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0221/2018Data da Publicação: 15/08/2018Número do Diário: 4089"
+      },
+      {
+        "data": "14/08/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0221/2018Teor do ato: Ante o exposto, defiro o pedido dereconsideração de f. 228, tornando sem efeito a decisão def.225/227.Defiro à autora os benefícios da Gratuidade daJustiça, eis que satisfeitos os requisitos do art. 98 doCPC. Anote-se e observe-se.Deixo de designar audiência de conciliação, nos termos do artigo 334, § 4º, inciso II, do CPC.Cite-se o réu. O prazo para o oferecimento decontestação, de trinta dias, terá como termo inicial a datada juntada do aviso de recebimento, com fulcro no artigo231, I, do CPC.Advogados(s): Ana Silvia Pessoa Salgado de Moura (OAB 7317/MS), Adriana Catelan Skowronski (OAB 10227/MS)"
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Expedição de Carta de Citação PJMS - CGJ - Carta de Citação - Fazenda Pública - Integração PGE (CPC 2015)"
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Expedição de Termo Em 13/08/2018, procedo à citação do(a) Ilustre Procurador(a) do Estado, referente aos autos acima mencionados."
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Emissão da Relação Ante o exposto, defiro o pedido dereconsideração de f. 228, tornando sem efeito a decisão def.225/227.Defiro à autora os benefícios da Gratuidade daJustiça, eis que satisfeitos os requisitos do art. 98 doCPC. Anote-se e observe-se.Deixo de designar audiência de conciliação, nos termos do artigo 334, § 4º, inciso II, do CPC.Cite-se o réu. O prazo para o oferecimento decontestação, de trinta dias, terá como termo inicial a datada juntada do aviso de recebimento, com fulcro no artigo231, I, do CPC."
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "13/08/2018",
+        "movimento": "Recebida petição inicial Ante o exposto, defiro o pedido de reconsideração de f. 228, tornando sem efeito a decisão de f.225/227. Defiro à autora os benefícios da Gratuidade da Justiça, eis que satisfeitos os requisitos do art. 98 do CPC. Anote-se e observe-se. Deixo de designar audiência de conciliação, nos termos do artigo 334, § 4º, inciso II, do CPC. Cite-se o réu. O prazo para o oferecimento de contestação, de trinta dias, terá como termo inicial a data da juntada do aviso de recebimento, com fulcro no artigo 231, I, do CPC. I-se. C-se."
+      },
+      {
+        "data": "01/08/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.08286647-0Tipo da Petição: Manifestação do AutorData: 01/08/2018 09:55"
+      },
+      {
+        "data": "31/07/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0209/2018Data da Publicação: 01/08/2018Número do Diário: 4079"
+      },
+      {
+        "data": "31/07/2018",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "31/07/2018",
+        "movimento": "Juntada de Emenda à Inicial Nº Protocolo: WCGR.18.08285914-8Tipo da Petição: Emenda à inicial - Faz. PúblicaData: 31/07/2018 16:45"
+      },
+      {
+        "data": "31/07/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0209/2018Teor do ato: Ante todo o exposto, declino competência para oJuizado Especial da Fazenda Pública de Campo Grande.Advogados(s): Ana Silvia Pessoa Salgado de Moura (OAB 7317/MS), Adriana Catelan Skowronski (OAB 10227/MS)"
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Emissão da Relação Ante todo o exposto, declino competência para oJuizado Especial da Fazenda Pública de Campo Grande."
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Declarada incompetência Ante todo o exposto, declino competência para o Juizado Especial da Fazenda Pública de Campo Grande. I-se. C-se."
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Conclusos para Decisão"
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Remetidos os Autos da Distribuição para o Cartório"
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Certidão Cartorária PJMS - DIST - Certidão documentos faltantes"
+      },
+      {
+        "data": "30/07/2018",
+        "movimento": "Processo Distribuído por Sorteio"
+      }
+    ]
+  }
+}
