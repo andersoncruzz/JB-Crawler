@@ -1,7 +1,7 @@
 const log = require('../logger');
 
 const exportable = {
-  'wrap': async (requestUrl, processFunction) => processFunction(),
+  wrap: async (requestUrl, processFunction) => processFunction(),
 };
 
 if (process.argv.indexOf('--use-redis') >= 0) {

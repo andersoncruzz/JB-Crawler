@@ -11,7 +11,7 @@ async function find(processId) {
   const firstInstanceParsedPage = cheerio.load(firstInstancePage);
 
   const response = {
-    'primeiraInstancia': state.instances.first.parser(firstInstanceParsedPage),
+    primeiraInstancia: state.instances.first.parser(firstInstanceParsedPage),
   };
 
   return response;

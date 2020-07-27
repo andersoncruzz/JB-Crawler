@@ -5,7 +5,7 @@ const request = (timeout = 5000) => {
   const client = axios.create({
     timeout,
   });
-  axios_reties(client, { 'retries': 3 });
+  axios_reties(client, { retries: 3 });
   return client;
 };
 

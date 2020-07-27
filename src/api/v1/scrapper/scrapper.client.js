@@ -8,8 +8,8 @@ axiosCookieJarSupport(axios);
 const cookieJar = new tough.CookieJar();
 
 const navigate = async (url) => cache.wrap(url, () => axios.get(url, {
-  'jar': cookieJar,
-  'withCredentials': true,
+  jar: cookieJar,
+  withCredentials: true,
 }).then(({ data }) => data));
 
 module.exports = {

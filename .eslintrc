@@ -21,9 +21,6 @@
     "no-plusplus": "off",
     "camelcase": "off",
     "no-unused-expressions": "off",
-    "quote-props": [
-      "error",
-      "always"
-    ]
+    "quote-props": "error",
   }
 }
