@@ -4,7 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js --use-redis",
     "dev": "nodemon index.js",
     "test": "NODE_ENV=test node_modules/mocha/bin/_mocha ./test/**/*.test.js --timeout 15000",
     "lint": "eslint src/** test/** --fix",

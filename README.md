@@ -78,10 +78,15 @@ eval $(minikube docker-env -u)
 ```
 
 #### 3. Kubectl
+Separei os serviços em 2 arquivos: 
 
+ - redis.yaml
+ - jbcrawler.yaml
+ 
+ O arquivo `deploy.sh` possui a verificação do status do serviço `redis` para iniciar o serviço  e os pods da aplicação descrita em `jbcrawler.yaml` em seguida.
+ 
 ```sh
-kubectl create -f kubernetes.yaml
-minikube tunnel
+chmod +x deploy.sh && ./deploy.sh
 ```
 
 O serviço estará exposto no IP do service mostrado no dashboard do Kubernete (`minikube dashboard`).
