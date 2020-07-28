@@ -90,3 +90,16 @@ chmod +x deploy.sh && ./deploy.sh
 ```
 
 O serviço estará exposto no IP do service mostrado no dashboard do Kubernete (`minikube dashboard`).
+
+
+# Todo
+- Organização do código ![](https://progress-bar.dev/70)
+    - Arquitetura Repository
+- Testes ![](https://progress-bar.dev/50)
+    - Mocha 
+- Facilidade ao rodar o projeto ![](https://progress-bar.dev/100)
+    - NPM
+- Escalabilidade: o quao facil é escalar os crawlers. ![](https://progress-bar.dev/70)
+    - Kubernetes, Docker 
+- Performance: o tempo para crawlear todo o processo juridico. ![](https://progress-bar.dev/100)
+    - Detached Wrapper e Redis
