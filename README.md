@@ -93,13 +93,10 @@ O serviço estará exposto no IP do service mostrado no dashboard do Kubernete (
 
 
 # Todo
-- Organização do código ![](https://progress-bar.dev/70)
-    - Arquitetura Repository
-- Testes ![](https://progress-bar.dev/50)
-    - Mocha 
-- Facilidade ao rodar o projeto ![](https://progress-bar.dev/100)
-    - NPM
-- Escalabilidade: o quao facil é escalar os crawlers. ![](https://progress-bar.dev/70)
-    - Kubernetes, Docker 
-- Performance: o tempo para crawlear todo o processo juridico. ![](https://progress-bar.dev/100)
-    - Detached Wrapper e Redis
+| Item | Descrição | Status|
+| --- | --- | --- |
+| Organização do código | Arquitetura Repository & AbstractFactory| ![](https://progress-bar.dev/70) |
+| Testes | Mocha | ![](https://progress-bar.dev/50) | 
+| Facilidade ao rodar o projeto | NPM | ![](https://progress-bar.dev/100) | 
+|Escalabilidade: o quao facil é escalar os crawlers. | PM2, Kubernetes e Containers | ![](https://progress-bar.dev/70) |
+| Performance: o tempo para crawlear todo o processo juridico. | Detached Wrappers e Redis | ![](https://progress-bar.dev/100)| 
