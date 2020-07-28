@@ -17,8 +17,10 @@ npm start --use-redis
 
 # Testes
 
+Utilizando Mocha com BDD
+
 ```sh
-npm test
+npm run test
 ```
 
 **Porta padrão**: 3000
