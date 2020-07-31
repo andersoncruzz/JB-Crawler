@@ -5,6 +5,7 @@ const Sanitizer = require('string-sanitizer');
 
 const pattern = /(\d{7})(\d{2})(\d{4})(\d)(\d{2})(\d{4})/;
 const {getInnerText} = require('./utils');
+const log = require('../../../../logger');
 const APB = require('../../../../models/AbstractParserBuilder');
 const {RequestedCourtNotFoundException, CatchableException} = require('../../../../error/domain');
 
@@ -20,6 +21,10 @@ const states = [
                     if (getInnerText(page, '#mensagemRetorno > li') === 'Não existem informações disponíveis para os parâmetros informados.') {
                         return null;
                     }
+                    if(getInnerText(page, 'body > div > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table:nth-child(2) > tbody > tr > td:nth-child(1) > h2').trim() === ''){
+                        return null;
+                    }
+
                     return new APB(page)
                         .fromTableAsEntity('body > div.div-conteudo > table:nth-child(4) > tbody > tr > td > div:nth-child(7) > table.secaoFormBody > tbody > tr', 'processo',
                             [
@@ -170,9 +175,9 @@ const states = [
                 },
             },
             second: {
-                url: (processId) => `https://esaj.tjms.jus.br/cposg5/search.do?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&dePesquisaNuUnificado=${processId}&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO`,
+                url: (processId) => `https://esaj.tjms.jus.br/cposg5/search.do?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&dePesquisaNuUnificado=${processId}&dePesquisa=&tipoNuProcesso=UNIFICADO`,
                 parser: (page) => {
-                    if (getInnerText(page, '#mensagemRetorno > li') === 'Não existem informações disponíveis para os parâmetros informados') {
+                    if (getInnerText(page, '#mensagemRetorno > li') !== '') {
                         return null;
                     }
                     return new APB(page)

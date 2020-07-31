@@ -4,27 +4,23 @@
       "classe": "Procedimento Comum Cível",
       "area": "Cível",
       "assunto": "Enquadramento",
-      "distribuicao": "30/07/2018",
+      "data_distribuicao": "30/07/2018",
       "juiz": "Zidiel Infantino Coutinho",
       "valor_acao": "R$ 10.000,00"
     },
-    "partes": {
-      "exequente": {
-        "nome": "Leidi Silva Ormond Galvão",
-        "advogados": [
+    "partes": [
+      {
+        "Autora": "Leidi Silva Ormond Galvão",
+        "Advogada": [
           "Adriana Catelan Skowronski",
           "Ana Silvia Pessoa Salgado de Moura"
-        ],
-        "representantes": null
-      },
-      "executado": {
-        "nome": "Estado de Mato Grosso do Sul",
-        "advogados": null,
-        "representantes": [
-          "Procuradoria Geral do Estado de Mato Grosso do Sul"
         ]
+      },
+      {
+        "Réu": "Estado de Mato Grosso do Sul",
+        "RepreLeg": "Procuradoria Geral do Estado de Mato Grosso do Sul"
       }
-    },
+    ],
     "movimentacoes": [
       {
         "data": "17/07/2020",
@@ -273,6 +269,118 @@
       {
         "data": "30/07/2018",
         "movimento": "Processo Distribuído por Sorteio"
+      }
+    ]
+  },
+  "segundaInstancia": {
+    "processo": {
+      "classe": "Apelação Cível",
+      "area": "Cível",
+      "assunto": "Obrigação de Fazer / Não Fazer",
+      "juiz": "Zidiel Infantino Coutinho",
+      "valor_acao": "10.000,00"
+    },
+    "partes": [
+      {
+        "Apelante": "Leidi Silva Ormond Galvão",
+        "Advogada": [
+          "Adriana Catelan Skowronski",
+          "Ana Silvia Pessoa Salgado Moura"
+        ]
+      },
+      {
+        "Apelado": "Estado de Mato Grosso do Sul",
+        "Proc. do Estado": "Nathália dos Santos Paes de Barros"
+      }
+    ],
+    "movimentacoes": [
+      {
+        "data": "27/07/2020",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "27/07/2020",
+        "movimento": "Publicação Publicado em 27/07/2020Número do Diário Eletrônico: 4543Teor do ato: Desta forma, defiro o pedido de parcelamento, na forma solicitada, condicionado o recebimento do recurso ao pagamento integral do preparo. Intimem-se."
+      },
+      {
+        "data": "24/07/2020",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2020008608Enviado em: 24/07/2020Teor do ato: Desta forma, defiro o pedido de parcelamento, na forma solicitada, condicionado o recebimento do recurso ao pagamento integral do preparo. Intimem-se."
+      },
+      {
+        "data": "22/07/2020",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "22/07/2020",
+        "movimento": "Proferido despacho de mero expediente Desta forma, defiro o pedido de parcelamento, na forma solicitada, condicionado o recebimento do recurso ao pagamento integral do preparo. Intimem-se."
+      },
+      {
+        "data": "21/07/2020",
+        "movimento": "Concluso ao Relator Aos 21 de julho de 2020, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, Andressa Helena Ferrari Menezes, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "21/07/2020",
+        "movimento": "Juntada de Petição Realizada Nº Protocolo: WTJM.20.01853472-4Tipo da Petição: Manifestação do AutorData: 21/07/2020 17:05"
+      },
+      {
+        "data": "16/07/2020",
+        "movimento": "Publicação Publicado em 16/07/2020Número do Diário Eletrônico: 4536Teor do ato: Posto isso, mantenho a sentença na parte que revogou a gratuidade da justiça às apelantes. Concedo às apelantes o prazo de 5 (cinco) dias para que façam prova do recolhimento das despesas processuais que deveriam ter adiantado (parágrafo único do art. 100, CPC - custas processuais) e do preparo do recurso (§ 2º, art. 101, CPC), sob pena de seu não conhecimento."
+      },
+      {
+        "data": "16/07/2020",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "15/07/2020",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2020008176Enviado em: 15/07/2020Teor do ato: Posto isso, mantenho a sentença na parte que revogou a gratuidade da justiça às apelantes. Concedo às apelantes o prazo de 5 (cinco) dias para que façam prova do recolhimento das despesas processuais que deveriam ter adiantado (parágrafo único do art. 100, CPC - custas processuais) e do preparo do recurso (§ 2º, art. 101, CPC), sob pena de seu não conhecimento."
+      },
+      {
+        "data": "15/07/2020",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "15/07/2020",
+        "movimento": "Assistência Judiciária Gratuita não concedida a \"nome da parte\". Posto isso, mantenho a sentença na parte que revogou a gratuidade da justiça às apelantes. Concedo às apelantes o prazo de 5 (cinco) dias para que façam prova do recolhimento das despesas processuais que deveriam ter adiantado (parágrafo único do art. 100, CPC - custas processuais) e do preparo do recurso (§ 2º, art. 101, CPC), sob pena de seu não conhecimento."
+      },
+      {
+        "data": "12/07/2020",
+        "movimento": "Juntada de Petição Realizada Nº Protocolo: WTJM.20.02239012-0Tipo da Petição: Manifestação do Procurador da Fazenda Pública EstadualData: 12/07/2020 19:06"
+      },
+      {
+        "data": "08/07/2020",
+        "movimento": "Certidão INTEGRAÇÃO - Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "07/07/2020",
+        "movimento": "Julgamento Virtual - Intimação à Procuradoria Geral do Estado - PGE JULGAMENTO VIRTUAL. Processo incluído automaticamente em pauta de julgamento virtual. Fica a Procuradoria-Geral do Estado intimada para, querendo, apresentar oposição a esta forma de julgamento nos termos do art. 1º do Provimento-CSM n. 411/2018. Certidão emitida automaticamente pelo sistema em 7 de julho de 2020."
+      },
+      {
+        "data": "07/07/2020",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "07/07/2020",
+        "movimento": "Publicação Publicado em 07/07/2020Número do Diário Eletrônico: 4529Teor do ato: Realizada Distribuição do processo por Sorteio em 06/07/2020. Processo incluso automaticamente em pauta de Julgamento Virtual. Ficam as partes intimadas para, querendo, apresentar oposição a esta forma de julgamento nos termos do art. 1º do Provimento-CSM n. 411/2018."
+      },
+      {
+        "data": "06/07/2020",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2020007721Enviado em: 06/07/2020Teor do ato: Realizada Distribuição do processo por Sorteio em 06/07/2020. Processo incluso automaticamente em pauta de Julgamento Virtual. Ficam as partes intimadas para, querendo, apresentar oposição a esta forma de julgamento nos termos do art. 1º do Provimento-CSM n. 411/2018."
+      },
+      {
+        "data": "06/07/2020",
+        "movimento": "Concluso ao Relator Aos 6 de julho de 2020, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, SAJ, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "06/07/2020",
+        "movimento": "Expedição de Termo de Distribuição . Realizada Distribuição do processo por Sorteio em 06/07/2020. Processo incluso automaticamente em pauta de Julgamento Virtual. Ficam as partes intimadas para, querendo, apresentar oposição a esta forma de julgamento nos termos do art. 1º do Provimento-CSM n. 411/2018."
+      },
+      {
+        "data": "06/07/2020",
+        "movimento": "Processo Distribuído por Sorteio Órgão Julgador: 27 - 4ª Câmara CívelRelator: 56 - Des. Luiz Tadeu Barbosa Silva"
+      },
+      {
+        "data": "30/06/2020",
+        "movimento": "Recurso Eletrônico Recebido da 1ª Instância Foro de origem: Campo GrandeVara de origem: 3ª Vara de Fazenda Pública e de Registros Públicos"
       }
     ]
   }

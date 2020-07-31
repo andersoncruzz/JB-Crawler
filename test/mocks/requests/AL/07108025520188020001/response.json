@@ -8,24 +8,20 @@
       "juiz": "José Cícero Alves da Silva",
       "valor_acao": "R$ 281.178,42"
     },
-    "partes": {
-      "exequente": {
-        "nome": "José Carlos Cerqueira Souza Filho",
-        "advogados": [
-          "Vinicius Faria de Cerqueira"
-        ],
-        "representantes": null
+    "partes": [
+      {
+        "Autor": "José Carlos Cerqueira Souza Filho",
+        "Advogado": "Vinicius Faria de Cerqueira"
       },
-      "executado": {
-        "nome": "Cony Engenharia Ltda.",
-        "advogados": [
+      {
+        "Ré": "Cony Engenharia Ltda.",
+        "Advogado": [
           "Marcus Vinicius Cavalcante Lins Filho",
           "Thiago Maia Nobre Rocha",
           "Orlando de Moura Cavalcante Neto"
-        ],
-        "representantes": null
+        ]
       }
-    },
+    ],
     "movimentacoes": [
       {
         "data": "11/05/2020",
@@ -188,5 +184,6 @@
         "movimento": "Distribuído por Sorteio"
       }
     ]
-  }
+  },
+  "segundaInstancia": null
 }

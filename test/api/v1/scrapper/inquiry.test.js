@@ -1,19 +1,37 @@
 const mocks = require('../../../mocks');
+const path = require('path');
+const fs = require('fs');
 
 describe('Brands FindAll Controller', () => {
-  before(() => {
-    mocks();
-  });
+    before(() => {
+        mocks();
+    });
 
-  it('Should return a complete sentence of process 07108025520188020001', async () => {
-    const response = await request.get('/rest/v1/inquiry/07108025520188020001');
-    const { body } = response;
-    expect(body).to.deep.equal(require('../../../mocks/requests/tjal-first-instance/07108025520188020001.json'));
-  });
+    const mockRequestPath = path.resolve(__dirname, '../../../mocks/requests');
+    const ALpath = path.resolve(mockRequestPath, 'AL');
+    const MSpath = path.resolve(mockRequestPath, 'MS');
 
-  it('Should return a complete sentence of process 08219015120188120001', async () => {
-    const response = await request.get('/rest/v1/inquiry/08219015120188120001');
-    const { body } = response;
-    expect(body).to.deep.equal(require('../../../mocks/requests/tjms-first-instance/08219015120188120001.json'));
-  });
+    describe(`Testcases for AL enclosed in ${ALpath}`, () => {
+        fs.readdirSync(ALpath).forEach((alProcessFolder) => {
+            it(`Recover AL document ${alProcessFolder}`, async () => {
+                const {body, ok, status, type} = await global.request.get(`/rest/v1/inquiry/${alProcessFolder}`);
+                expect(ok).to.equal(true);
+                expect(status).to.equal(200);
+                expect(type).to.equal('application/json');
+                expect(body).to.deep.equal(JSON.parse(fs.readFileSync(path.resolve(ALpath, alProcessFolder, './response.json'), 'utf-8')));
+            });
+        });
+    });
+
+    describe(`Testcases for MS enclosed in ${MSpath}`, () => {
+        fs.readdirSync(MSpath).forEach((msProcessFolder) => {
+            it(`Recover MS document ${msProcessFolder}`, async () => {
+                const {body, ok, status, type} = await global.request.get(`/rest/v1/inquiry/${msProcessFolder}`);
+                expect(ok).to.equal(true);
+                expect(status).to.equal(200);
+                expect(type).to.equal('application/json');
+                expect(body).to.deep.equal(JSON.parse(fs.readFileSync(path.resolve(MSpath, msProcessFolder, './response.json'), 'utf-8')));
+            });
+        });
+    })
 });

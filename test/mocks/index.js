@@ -3,27 +3,56 @@ const fs = require('fs');
 const path = require('path');
 
 function mock() {
-  nock('https://www2.tjal.jus.br')
-    .get('/cpopg/search.do')
-    .query({
-      'dadosConsulta.localPesquisa.cdLocal': '-1',
-      cbPesquisa: 'NUMPROC',
-      'dadosConsulta.tipoNuProcesso': 'UNIFICADO',
-      'dadosConsulta.valorConsultaNuUnificado': '07108025520188020001',
-    })
-    .reply(200, fs.readFileSync(path.join(__dirname, './requests/tjal-first-instance/07108025520188020001.html')));
+  const mockRequestPath = path.resolve(__dirname, './requests');
+  const ALpath = path.resolve(mockRequestPath, 'AL');
+  const MSpath = path.resolve(mockRequestPath, 'MS');
 
-  nock('https://esaj.tjms.jus.br')
-    .get('/cpopg5/search.do')
-    .query({
-      conversationId: '',
-      'dadosConsulta.localPesquisa.cdLocal': '-1',
-      cbPesquisa: 'NUMPROC',
-      'dadosConsulta.tipoNuProcesso': 'UNIFICADO',
-      'dadosConsulta.valorConsultaNuUnificado': '08219015120188120001',
-      pbEnviar: 'Pesquisar',
-    })
-    .reply(200, fs.readFileSync(path.join(__dirname, './requests/tjms-first-instance/08219015120188120001.html')));
+  fs.readdirSync(ALpath).forEach((alProcessFolder) => {
+    nock('https://www2.tjal.jus.br')
+      .get('/cpopg/search.do')
+      .query({
+        'dadosConsulta.localPesquisa.cdLocal': '-1',
+        cbPesquisa: 'NUMPROC',
+        'dadosConsulta.tipoNuProcesso': 'UNIFICADO',
+        'dadosConsulta.valorConsultaNuUnificado': alProcessFolder,
+      })
+      .reply(200, fs.readFileSync(path.resolve(ALpath, alProcessFolder, './firstInstance.html')));
+    nock('https://www2.tjal.jus.br')
+      .get('/cposg5/search.do')
+      .query({
+        tipoNuProcesso: 'UNIFICADO',
+        cbPesquisa: 'NUMPROC',
+        'dePesquisaNuUnificado': alProcessFolder,
+      })
+      .reply(200, fs.readFileSync(path.resolve(ALpath, alProcessFolder, './secondInstance.html')));
+  });
+
+  fs.readdirSync(MSpath).forEach((msProcessFolder) => {
+    nock('https://esaj.tjms.jus.br')
+      .get('/cpopg5/search.do')
+      .query({
+        conversationId: '',
+        'dadosConsulta.localPesquisa.cdLocal': '-1',
+        cbPesquisa: 'NUMPROC',
+        'dadosConsulta.tipoNuProcesso': 'UNIFICADO',
+        'dadosConsulta.valorConsultaNuUnificado': msProcessFolder,
+        pbEnviar: 'Pesquisar',
+      })
+      .reply(200, fs.readFileSync(path.resolve(MSpath, msProcessFolder, './firstInstance.html')));
+
+    nock('https://esaj.tjms.jus.br')
+      .get('/cposg5/search.do')
+      .query({
+        conversationId: '',
+        paginaConsulta: '0',
+        cbPesquisa: 'NUMPROC',
+        dePesquisaNuUnificado: msProcessFolder,
+        dePesquisa: '',
+        tipoNuProcesso: 'UNIFICADO',
+      })
+      .reply(200, fs.readFileSync(path.resolve(MSpath, msProcessFolder, './secondInstance.html')));
+  });
 }
 
+mock();
 module.exports = mock;

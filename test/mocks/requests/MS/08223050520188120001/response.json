@@ -1,0 +1,603 @@
+{
+  "primeiraInstancia": {
+    "processo": {
+      "classe": "Procedimento Comum Cível",
+      "area": "Cível",
+      "assunto": "Isonomia/Equivalência Salarial",
+      "data_distribuicao": "02/08/2018",
+      "juiz": "Marcelo Andrade Campos Silva",
+      "valor_acao": "R$ 215.413,19"
+    },
+    "partes": [
+      {
+        "Autor": "Paulo Cezar Dias",
+        "Advogado": [
+          "Aldair Capatti de Aquino",
+          "Fausto Luiz Rezende de Aquino"
+        ]
+      },
+      {
+        "Réu": "Estado de Mato Grosso do Sul",
+        "Proc. do Estado": "Procuradoria-Geral do Estado de Mato Grosso do Sul"
+      }
+    ],
+    "movimentacoes": [
+      {
+        "data": "29/07/2020",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0137/2020Data da Publicação: 30/07/2020Número do Diário: 4546"
+      },
+      {
+        "data": "29/07/2020",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "29/07/2020",
+        "movimento": "Expedição de Carta de Citação PJMS - CGJ - Carta de Citação - Fazenda Pública - Integração PGE (CPC 2015)"
+      },
+      {
+        "data": "29/07/2020",
+        "movimento": "Expedição de Termo Em 29/07/2020, procedo à citação do(a) Ilustre Procurador(a) do Estado, referente aos autos acima mencionados."
+      },
+      {
+        "data": "29/07/2020",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "29/07/2020",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0137/2020Teor do ato: Despacho de fls. 123: \" Vistos. Defiro a gratuidade processual.Ante a hipótese do art. 334, § 4º, II do CPC, deixo de designar a audiência de conciliação. Cite-se o requerido, com as advertências de praxe para, querendo, apresentar resposta no prazo de 30 dias a contar da citação (art. 183 do CPC), sob pena de revelia e confissão quanto à matéria fática aduzida na exordial.\"Advogados(s): Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "28/07/2020",
+        "movimento": "Expedição em análise para assinatura"
+      },
+      {
+        "data": "28/07/2020",
+        "movimento": "Emissão da Relação Despacho de fls. 123: \" Vistos. Defiro a gratuidade processual.Ante a hipótese do art. 334, § 4º, II do CPC, deixo de designar a audiência de conciliação. Cite-se o requerido, com as advertências de praxe para, querendo, apresentar resposta no prazo de 30 dias a contar da citação (art. 183 do CPC), sob pena de revelia e confissão quanto à matéria fática aduzida na exordial.\""
+      },
+      {
+        "data": "17/07/2020",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "17/07/2020",
+        "movimento": "Despacho de recebimento da inicial Vistos. Defiro a gratuidade processual. Ante a hipótese do art. 334, § 4º, II do CPC, deixo de designar a audiência de conciliação. Cite-se o requerido, com as advertências de praxe para, querendo, apresentar resposta no prazo de 30 dias a contar da citação (art. 183 do CPC), sob pena de revelia e confissão quanto à matéria fática aduzida na exordial."
+      },
+      {
+        "data": "16/07/2020",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "28/02/2020",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.20.08061552-0Tipo da Petição: Manifestação do AutorData: 28/02/2020 12:59"
+      },
+      {
+        "data": "05/02/2020",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "25/11/2019",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0230/2019Data da Publicação: 26/11/2019Número do Diário: 4391"
+      },
+      {
+        "data": "25/11/2019",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0230/2019Teor do ato: despacho de f.108: Vistos.Recebo o pedido de fl. 103 como emenda à inicial. Corrijase o valor da causa.Recebo também a emenda de fl. 28. Anote-se no polo ativoda presente.Outrossim, completem os autores a inicial, em 15 dias,trazendo aos autos declaração de situação econômica em torno de suaimpossibilidade de arcar com as custas, despesas processuais ehonorários advocatícios, a fim de possibilitar a análise do pedido deassistência judiciária gratuita.Intime-se.Advogados(s): Aldair Capatti de Aquino (OAB 2162B/MS), Fausto Luiz Rezende de Aquino (OAB 11232/MS), Aldair Capatti de Aquino (OAB 2162/MS), Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "22/11/2019",
+        "movimento": "Emissão da Relação despacho de f.108: Vistos.Recebo o pedido de fl. 103 como emenda à inicial. Corrijase o valor da causa.Recebo também a emenda de fl. 28. Anote-se no polo ativoda presente.Outrossim, completem os autores a inicial, em 15 dias,trazendo aos autos declaração de situação econômica em torno de suaimpossibilidade de arcar com as custas, despesas processuais ehonorários advocatícios, a fim de possibilitar a análise do pedido deassistência judiciária gratuita.Intime-se."
+      },
+      {
+        "data": "22/11/2019",
+        "movimento": "Certidão Cartorária Certifico que, nesta data, realizei as modificações determinadas à f.108."
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Proferido despacho de mero expediente Vistos. Recebo o pedido de fl. 103 como emenda à inicial. Corrija-se o valor da causa. Recebo também a emenda de fl. 28. Anote-se no polo ativo da presente. Outrossim, completem os autores a inicial, em 15 dias, trazendo aos autos declaração de situação econômica em torno de sua impossibilidade de arcar com as custas, despesas processuais e honorários advocatícios, a fim de possibilitar a análise do pedido de assistência judiciária gratuita. Intime-se."
+      },
+      {
+        "data": "21/11/2019",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "14/11/2019",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.19.08489593-2Tipo da Petição: Manifestação do AutorData: 14/11/2019 16:42"
+      },
+      {
+        "data": "08/11/2019",
+        "movimento": "Certidão Cartorária Certidão de Intimação Eletrônica"
+      },
+      {
+        "data": "31/10/2019",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0213/2019Data da Publicação: 31/10/2019Número do Diário: 4374"
+      },
+      {
+        "data": "30/10/2019",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0213/2019Teor do ato: Vistos. Ciente do ofício de fls. 63-95. Cumpra-se a decisão de fls. 18-20.Advogados(s): Aldair Capatti de Aquino (OAB 2162/MS), Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "29/10/2019",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "29/10/2019",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "29/10/2019",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "29/10/2019",
+        "movimento": "Emissão da Relação Vistos. Ciente do ofício de fls. 63-95. Cumpra-se a decisão de fls. 18-20."
+      },
+      {
+        "data": "22/10/2019",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "22/10/2019",
+        "movimento": "Proferido despacho de mero expediente Vistos. Ciente do ofício de fls. 63-95. Cumpra-se a decisão de fls. 18-20."
+      },
+      {
+        "data": "22/10/2019",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "22/10/2019",
+        "movimento": "Juntada de Ofícios"
+      },
+      {
+        "data": "01/08/2019",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "01/08/2019",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.19.01053907-5Tipo da Petição: Manifestação do Procurador da Fazenda Pública EstadualData: 01/08/2019 09:30"
+      },
+      {
+        "data": "01/08/2019",
+        "movimento": "Certidão Cartorária Certidão de Intimação Eletrônica"
+      },
+      {
+        "data": "23/07/2019",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0142/2019Data da Publicação: 24/07/2019Número do Diário: 4306"
+      },
+      {
+        "data": "23/07/2019",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0142/2019Teor do ato: Despacho de fls. 55: \" Vistos. Da análise dos autos verifico que ainda não foi comunicado pelo E. TJMS o resultado do recurso interposto pelo REQUERENTE. Assim, aguarde-se notícia do julgamento e envio do acórdão para prosseguimento do feito. Intime-se.\"Advogados(s): Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "22/07/2019",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "22/07/2019",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "22/07/2019",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "22/07/2019",
+        "movimento": "Emissão da Relação Despacho de fls. 55: \" Vistos. Da análise dos autos verifico que ainda não foi comunicado pelo E. TJMS o resultado do recurso interposto pelo REQUERENTE. Assim, aguarde-se notícia do julgamento e envio do acórdão para prosseguimento do feito. Intime-se.\""
+      },
+      {
+        "data": "28/06/2019",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.19.08271061-7Tipo da Petição: Manifestação do AutorData: 28/06/2019 13:28"
+      },
+      {
+        "data": "04/06/2019",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "04/06/2019",
+        "movimento": "Proferido despacho de mero expediente Vistos. Da análise dos autos verifico que ainda não foi comunicado pelo E. TJMS o resultado do recurso interposto pelo REQUERENTE. Assim, aguarde-se notícia do julgamento e envio do acórdão para prosseguimento do feito. Intime-se."
+      },
+      {
+        "data": "03/06/2019",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.19.08234489-0Tipo da Petição: Manifestação do AutorData: 03/06/2019 17:38"
+      },
+      {
+        "data": "30/05/2019",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "30/05/2019",
+        "movimento": "Processo Desarquivado"
+      },
+      {
+        "data": "30/05/2019",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.19.08228725-0Tipo da Petição: Manifestação do AutorData: 30/05/2019 13:57"
+      },
+      {
+        "data": "31/01/2019",
+        "movimento": "Prazo alterado automaticamente em razão de feriado/interrupção de expediente Prazo referente à movimentação foi alterado para 30/09/2019 devido à alteração da tabela de feriados"
+      },
+      {
+        "data": "06/12/2018",
+        "movimento": "Arquivado Provisoriamente"
+      },
+      {
+        "data": "25/11/2018",
+        "movimento": "Informação do Sistema PJMS - Certidão de realização de consulta de repetiçaõ de ação"
+      },
+      {
+        "data": "25/11/2018",
+        "movimento": "Realizada pesquisa de suspeita de repetição de ação Nenhum processo localizado"
+      },
+      {
+        "data": "22/11/2018",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "22/11/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.01126094-4Tipo da Petição: Manifestação do Procurador da Fazenda Pública EstadualData: 22/11/2018 09:10"
+      },
+      {
+        "data": "22/11/2018",
+        "movimento": "Certidão Cartorária Certidão de Intimação Eletrônica"
+      },
+      {
+        "data": "13/11/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0227/2018Data da Publicação: 14/11/2018Número do Diário: 4150"
+      },
+      {
+        "data": "13/11/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0227/2018Teor do ato: Teor do Despacho de fls. 42: \"Vistos. Pelo que consta do sistema (fl. 39), foi distribuído recurso no TJMS referente ao feito. Assim, aguarde-se en arquivo provisório comunicação do Tribunal de Justiça acerca do resultado do recurso. Intime-se. Cumpra-se.\"Advogados(s): Aldair Capatti de Aquino (OAB 2162/MS), Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "12/11/2018",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "12/11/2018",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "12/11/2018",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "12/11/2018",
+        "movimento": "Emissão da Relação Teor do Despacho de fls. 42: \"Vistos. Pelo que consta do sistema (fl. 39), foi distribuído recurso no TJMS referente ao feito. Assim, aguarde-se en arquivo provisório comunicação do Tribunal de Justiça acerca do resultado do recurso. Intime-se. Cumpra-se.\""
+      },
+      {
+        "data": "06/11/2018",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "06/11/2018",
+        "movimento": "Proferido despacho de mero expediente Modelo Despacho - MACS"
+      },
+      {
+        "data": "31/10/2018",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "25/10/2018",
+        "movimento": "Recebidos os Autos da Procuradoria do Estado"
+      },
+      {
+        "data": "25/10/2018",
+        "movimento": "Juntada de Petição Intermediária Realizada Nº Protocolo: WCGR.18.01108191-8Tipo da Petição: Manifestação do Procurador da Fazenda Pública EstadualData: 25/10/2018 08:29"
+      },
+      {
+        "data": "25/10/2018",
+        "movimento": "Certidão Cartorária Certidão de Intimação Eletrônica"
+      },
+      {
+        "data": "18/10/2018",
+        "movimento": "Informação do Sistema Agravo de Instrumento - 1411713-50.2018.8.12.0000"
+      },
+      {
+        "data": "16/10/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0205/2018Data da Publicação: 17/10/2018Número do Diário: 4131"
+      },
+      {
+        "data": "16/10/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0205/2018Teor do ato: Teor da Decisão de fls 34/35: \"É o breve relatório. Decido. Dispõe o art. 1022 do CPC/2015 que os embargos de declaração são cabíveis quando a decisão apresentar defeitos, tais como: I - esclarecer obscuridade ou eliminar contradição; II - suprir omissão de ponto ou questão sobre o qual devia se pronunciar o juiz de ofício ou a requerimento; III - corrigir erro material. No caso em apreço, o embargante fundamenta seu recurso na existência de omissão, mas percebe-se que seu intuito é tão-somente rediscutir a justiça da decisão, o que não é viável nesta estreita via recursal. Isso porque a decisão foi clara e expressa quanto a \"...não ser o caso de prévia oitiva da parte (art. 9º do CPC) antes de prolatar a presente decisão, pois não se trata de decisão contra uma das partes, mas tão-somente da aplicação da regra de competência, no caso absoluta, para processar e julgar o feito, obsevando-se o princípio do juiz natural\". (fl. 20). Da mesma forma, conforme pormenorizadamente disposto na decisão proferida, a competência do JUIZADO DA FAZENDA PÚBLICA em razão do valor decorre da lei 12.153/09 (COMPETÊNCIA ABSOLUTA), razão pela qual não há margem de escolhe à parte, tampouco ao magistrado, ao contrário do que ocorre nas ações afetas aos Juizado Estaduais (lei 9.099/95). Assim, não há falar em ofensa ao art. 1022 CPC, pois na decisão embargada dirimiram-se as questões postas à análise. Diante do exposto, deixo de acolher os presentes Embargos de Declaração. Publique-se. Intimem-se. Diante do declínio de competência, deixo de analisar o pedido de fl. 28. Cumpra-se na forma do despacho de fl. 18-20.\"Advogados(s): Aldair Capatti de Aquino (OAB 2162/MS), Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "15/10/2018",
+        "movimento": "Certidão Cartorária Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "15/10/2018",
+        "movimento": "Expedição de Termo Nesta data, preparei os autos com vista a(o) Procurador(a) do Estado de Mato Grosso do Sul, atuante neste cartório, para ciência e/ou manifestação."
+      },
+      {
+        "data": "15/10/2018",
+        "movimento": "Autos entregues em carga ao Procurador do Estado"
+      },
+      {
+        "data": "15/10/2018",
+        "movimento": "Emissão da Relação Teor da Decisão de fls 34/35: \"É o breve relatório. Decido. Dispõe o art. 1022 do CPC/2015 que os embargos de declaração são cabíveis quando a decisão apresentar defeitos, tais como: I - esclarecer obscuridade ou eliminar contradição; II - suprir omissão de ponto ou questão sobre o qual devia se pronunciar o juiz de ofício ou a requerimento; III - corrigir erro material. No caso em apreço, o embargante fundamenta seu recurso na existência de omissão, mas percebe-se que seu intuito é tão-somente rediscutir a justiça da decisão, o que não é viável nesta estreita via recursal. Isso porque a decisão foi clara e expressa quanto a \"...não ser o caso de prévia oitiva da parte (art. 9º do CPC) antes de prolatar a presente decisão, pois não se trata de decisão contra uma das partes, mas tão-somente da aplicação da regra de competência, no caso absoluta, para processar e julgar o feito, obsevando-se o princípio do juiz natural\". (fl. 20). Da mesma forma, conforme pormenorizadamente disposto na decisão proferida, a competência do JUIZADO DA FAZENDA PÚBLICA em razão do valor decorre da lei 12.153/09 (COMPETÊNCIA ABSOLUTA), razão pela qual não há margem de escolhe à parte, tampouco ao magistrado, ao contrário do que ocorre nas ações afetas aos Juizado Estaduais (lei 9.099/95). Assim, não há falar em ofensa ao art. 1022 CPC, pois na decisão embargada dirimiram-se as questões postas à análise. Diante do exposto, deixo de acolher os presentes Embargos de Declaração. Publique-se. Intimem-se. Diante do declínio de competência, deixo de analisar o pedido de fl. 28. Cumpra-se na forma do despacho de fl. 18-20.\""
+      },
+      {
+        "data": "19/09/2018",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "19/09/2018",
+        "movimento": "Não acolhidos embargos de declaração contra decisão Modelo Decisão - MACS"
+      },
+      {
+        "data": "18/09/2018",
+        "movimento": "Conclusos para Decisão"
+      },
+      {
+        "data": "10/09/2018",
+        "movimento": "Juntada de Emenda à Inicial Nº Protocolo: WCGR.18.08353347-5Tipo da Petição: Emenda a InicialData: 10/09/2018 14:30"
+      },
+      {
+        "data": "04/09/2018",
+        "movimento": "Juntada de Embargos de Declaração Nº Protocolo: WCGR.18.08345876-7Tipo da Petição: Embargos de DeclaraçãoData: 04/09/2018 15:28"
+      },
+      {
+        "data": "27/08/2018",
+        "movimento": "Publicado ato publicado em data da publicação. Relação :0170/2018Data da Publicação: 28/08/2018Número do Diário: 4098"
+      },
+      {
+        "data": "27/08/2018",
+        "movimento": "Relação encaminhada ao D.J. Relação: 0170/2018Teor do ato: Despacho de f.18/20: ... Ante o exposto, declaro, ex officio, a incompetência desteJuízo para conhecer, processar e julgar a demanda, determinando aremessa dos autos ao Juizado Especial da Fazenda Pública.Remetam-se os autos para aquele Juizadoindependentemente de nova conclusão. Somente em caso derecurso, voltem conclusos.Advogados(s): Aldair Capatti de Aquino (OAB 2162/MS), Procuradoria-Geral do Estado de Mato Grosso do Sul (OAB S/MS)"
+      },
+      {
+        "data": "24/08/2018",
+        "movimento": "Prazo em Curso"
+      },
+      {
+        "data": "24/08/2018",
+        "movimento": "Emissão da Relação Despacho de f.18/20: ... Ante o exposto, declaro, ex officio, a incompetência desteJuízo para conhecer, processar e julgar a demanda, determinando aremessa dos autos ao Juizado Especial da Fazenda Pública.Remetam-se os autos para aquele Juizadoindependentemente de nova conclusão. Somente em caso derecurso, voltem conclusos."
+      },
+      {
+        "data": "03/08/2018",
+        "movimento": "Recebidos os Autos do Juiz de Direito"
+      },
+      {
+        "data": "03/08/2018",
+        "movimento": "Proferido despacho de mero expediente Modelo Despacho - MACS"
+      },
+      {
+        "data": "02/08/2018",
+        "movimento": "Conclusos para Despacho"
+      },
+      {
+        "data": "02/08/2018",
+        "movimento": "Remetidos os Autos da Distribuição para o Cartório"
+      },
+      {
+        "data": "02/08/2018",
+        "movimento": "Processo Distribuído por Sorteio"
+      }
+    ]
+  },
+  "segundaInstancia": {
+    "processo": {
+      "classe": "Agravo de Instrumento",
+      "area": "Cível",
+      "assunto": "Isonomia/Equivalência Salarial",
+      "juiz": "Marcelo Andrade Campos Silva",
+      "valor_acao": "28.926,00"
+    },
+    "partes": [
+      {
+        "Agravante": "Paulo Cesar Dias",
+        "Advogado": [
+          "Fausto Luis Rezende de Aquino",
+          "Aldair Capatti de Aquino",
+          "Mário Cardoso Júnior"
+        ]
+      },
+      {
+        "Agravado": "Estado de Mato Grosso do Sul"
+      }
+    ],
+    "movimentacoes": [
+      {
+        "data": "15/10/2019",
+        "movimento": "Arquivado Definitivamente"
+      },
+      {
+        "data": "15/10/2019",
+        "movimento": "Documento Digitalizado"
+      },
+      {
+        "data": "20/09/2019",
+        "movimento": "Expedição de Ofício BAIXA - encaminha decisão agravo"
+      },
+      {
+        "data": "20/09/2019",
+        "movimento": "Certidão BAIXA - decurso de prazo"
+      },
+      {
+        "data": "29/08/2019",
+        "movimento": "Certidão INTEGRAÇÃO - Certidão de Intimação Eletrônica"
+      },
+      {
+        "data": "21/08/2019",
+        "movimento": "Publicação Publicado em 21/08/2019Número do Diário Eletrônico: 4326Teor do ato: Ante o exposto, em decorrência da deserção, não conheço do agravo de instrumento interposto por Paulo César Dias e Maria Magdalena Mello Araújo, eis que manifestamente inadmissível, o que faço monocraticamente nos termos do art. 932, inciso III, do CPC."
+      },
+      {
+        "data": "21/08/2019",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "20/08/2019",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2019009237Enviado em: 20/08/2019Teor do ato: Ante o exposto, em decorrência da deserção, não conheço do agravo de instrumento interposto por Paulo César Dias e Maria Magdalena Mello Araújo, eis que manifestamente inadmissível, o que faço monocraticamente nos termos do art. 932, inciso III, do CPC."
+      },
+      {
+        "data": "19/08/2019",
+        "movimento": "Certidão INTEGRAÇÃO - Certidão de Remessa da Intimação para o Portal Eletrônico"
+      },
+      {
+        "data": "19/08/2019",
+        "movimento": "Vista à Procuradoria Geral do Estado - PGE Certifico que, nesta data, os autos supramencionados estão disponíveis nas filas digitais da Procuradoria-Geral do Estado para manifestação. Para constar eu, Abdalla Yacoub Maachar Neto, Analista Judiciário, lavrei e subscrevi a presente em 19 de agosto de 2019."
+      },
+      {
+        "data": "19/08/2019",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "19/08/2019",
+        "movimento": "Recurso prejudicado Ante o exposto, em decorrência da deserção, não conheço do agravo de instrumento interposto por Paulo César Dias e Maria Magdalena Mello Araújo, eis que manifestamente inadmissível, o que faço monocraticamente nos termos do art. 932, inciso III, do CPC."
+      },
+      {
+        "data": "19/08/2019",
+        "movimento": "Concluso ao Relator Aos 19 de agosto de 2019, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, Abdalla Yacoub Maachar Neto, Analista Judiciário, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "19/08/2019",
+        "movimento": "Certidão Certifico para os devidos fins que até a presente data não houve manifestação em face do(a) despacho/decisão de fls. 75/78."
+      },
+      {
+        "data": "07/05/2019",
+        "movimento": "Processo Dependente Cadastrado Protocolo nº WTJM.1901831231-2 Recurso Especial"
+      },
+      {
+        "data": "26/03/2019",
+        "movimento": "Processo Dependente Cadastrado Protocolo nº WTJM.1901819163-9 Embargos de Declaração"
+      },
+      {
+        "data": "19/03/2019",
+        "movimento": "Publicação Publicado em 19/03/2019Número do Diário Eletrônico: 4222Teor do ato: Diante do exposto, Indefiro os benefícios da justiça gratuita. Intimem-se os agravantes, para o pagamento das custas referentes a este agravo, no prazo de cinco dias, sob pena de deserção."
+      },
+      {
+        "data": "19/03/2019",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "18/03/2019",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2019001971Enviado em: 18/03/2019Teor do ato: Diante do exposto, Indefiro os benefícios da justiça gratuita. Intimem-se os agravantes, para o pagamento das custas referentes a este agravo, no prazo de cinco dias, sob pena de deserção."
+      },
+      {
+        "data": "18/03/2019",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "18/03/2019",
+        "movimento": "Assistência Judiciária Gratuita não concedida a \"nome da parte\". Diante do exposto, Indefiro os benefícios da justiça gratuita. Intimem-se os agravantes, para o pagamento das custas referentes a este agravo, no prazo de cinco dias, sob pena de deserção."
+      },
+      {
+        "data": "15/03/2019",
+        "movimento": "Concluso ao Relator Aos 15 de março de 2019, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, Ana Paula Assis da Silva, Assessor Jurídico, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "14/03/2019",
+        "movimento": "Juntada de Petição Realizada Nº Protocolo: WTJM.19.01816222-1Tipo da Petição: Manifestação do AutorData: 14/03/2019 17:50"
+      },
+      {
+        "data": "07/03/2019",
+        "movimento": "Publicação Publicado em 07/03/2019Número do Diário Eletrônico: 4214Teor do ato: Concedo dilação do prazo por igual período, para juntada de documentos hábeis a fim de comprovar a \"insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios\" referentes a agravante Maria Magdalena Mello de Araújo."
+      },
+      {
+        "data": "01/03/2019",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "01/03/2019",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2019001551Enviado em: 01/03/2019Teor do ato: Concedo dilação do prazo por igual período, para juntada de documentos hábeis a fim de comprovar a \"insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios\" referentes a agravante Maria Magdalena Mello de Araújo."
+      },
+      {
+        "data": "28/02/2019",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "28/02/2019",
+        "movimento": "Proferido despacho de mero expediente Concedo dilação do prazo por igual período, para juntada de documentos hábeis a fim de comprovar a \"insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios\" referentes a agravante Maria Magdalena Mello de Araújo."
+      },
+      {
+        "data": "27/02/2019",
+        "movimento": "Concluso ao Relator Aos 27 de fevereiro de 2019, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, Ana Paula Assis da Silva, Assessor Jurídico, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "27/02/2019",
+        "movimento": "Juntada de Petição Realizada Nº Protocolo: WTJM.19.01812632-2Tipo da Petição: Manifestação do AutorData: 27/02/2019 16:44"
+      },
+      {
+        "data": "20/02/2019",
+        "movimento": "Publicação Publicado em 20/02/2019Número do Diário Eletrônico: 4206Teor do ato: Diante do exposto, determino que os agravantes, no prazo de 5 dias úteis, junte aos autos documentos hábeis a fim de comprovar a \"insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios\" (art. 98 do NCPC/2015), sob pena de indeferimento do pedido de gratuidade da justiça. Intimem-se."
+      },
+      {
+        "data": "19/02/2019",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "19/02/2019",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2019001115Enviado em: 19/02/2019Teor do ato: Diante do exposto, determino que os agravantes, no prazo de 5 dias úteis, junte aos autos documentos hábeis a fim de comprovar a \"insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios\" (art. 98 do NCPC/2015), sob pena de indeferimento do pedido de gratuidade da justiça. Intimem-se."
+      },
+      {
+        "data": "18/02/2019",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "18/02/2019",
+        "movimento": "Reforma de decisão anterior Diante do exposto, determino que os agravantes, no prazo de 5 dias úteis, junte aos autos documentos hábeis a fim de comprovar a \"insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios\" (art. 98 do NCPC/2015), sob pena de indeferimento do pedido de gratuidade da justiça. Intimem-se."
+      },
+      {
+        "data": "15/02/2019",
+        "movimento": "Concluso ao Relator Aos 15 de fevereiro de 2019, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, Erika Narla Leite Britez, Analista Judiciário, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "15/02/2019",
+        "movimento": "Documento Digitalizado"
+      },
+      {
+        "data": "06/02/2019",
+        "movimento": "Expedição de Termo Termo Distribuição Nova Composição 2019"
+      },
+      {
+        "data": "05/02/2019",
+        "movimento": "Redistribuição de Acervo Designação conforme Port. n. 77/2019Órgão Julgador: 2 - 1ª Câmara CívelRelator: 21287 - Juiz Luiz Antônio Cavassa de Almeida"
+      },
+      {
+        "data": "05/02/2019",
+        "movimento": "Saído para Redistribuição Designação conforme Port. n. 77/2019"
+      },
+      {
+        "data": "01/11/2018",
+        "movimento": "Processo Dependente Cadastrado Protocolo nº WTJM.1801875830-1 Embargos de Declaração"
+      },
+      {
+        "data": "24/10/2018",
+        "movimento": "Publicação Publicado em 24/10/2018Número do Diário Eletrônico: 4136Teor do ato: Assim, nos termos do artigo 1.007, § 4º, do CPC, intime-se os recorrentes para, no prazo de 5 dias, recolherem, em dobro, o preparo recursal, sob pena de deserção."
+      },
+      {
+        "data": "23/10/2018",
+        "movimento": "Certidão de Publicação - DJE DJE - TJMS - Certidão Automática de Publicação"
+      },
+      {
+        "data": "23/10/2018",
+        "movimento": "Remessa à Imprensa Oficial Nº do lote: 2018004949Enviado em: 23/10/2018Teor do ato: Assim, nos termos do artigo 1.007, § 4º, do CPC, intime-se os recorrentes para, no prazo de 5 dias, recolherem, em dobro, o preparo recursal, sob pena de deserção."
+      },
+      {
+        "data": "23/10/2018",
+        "movimento": "Retorno do autos da conclusão"
+      },
+      {
+        "data": "23/10/2018",
+        "movimento": "Proferido despacho de mero expediente Assim, nos termos do artigo 1.007, § 4º, do CPC, intime-se os recorrentes para, no prazo de 5 dias, recolherem, em dobro, o preparo recursal, sob pena de deserção."
+      },
+      {
+        "data": "18/10/2018",
+        "movimento": "Concluso ao Relator Aos 18 de outubro de 2018, faço estes autos conclusos ao(à) RELATOR(A). Para constar eu, Andreia Favareto Silverio de Oliveira, Analista Judiciário, lavrei e subscrevi a presente."
+      },
+      {
+        "data": "18/10/2018",
+        "movimento": "Remessa da Distribuição para Coordenadoria de Processamento (DEOJU)"
+      },
+      {
+        "data": "18/10/2018",
+        "movimento": "Expedição de Termo de Distribuição Termo de Distribuição - Julgamento Virtual"
+      },
+      {
+        "data": "18/10/2018",
+        "movimento": "Processo Distribuído por Sorteio O Estudo Automático não encontrou nenhum processo suspeito de prevenção.Órgão Julgador: 2 - 1ª Câmara CívelRelator: 52 - Des. Sérgio Fernandes Martins"
+      }
+    ]
+  }
+}
