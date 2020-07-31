@@ -1,6 +1,6 @@
 #!/bin/bash
 
-kubectl create -f redis.yaml
+kubectl create -f kubernetes/redis.yaml
 
 pod_name=$(kubectl get pods -l app=node-redis | grep "redis" | awk '{print $1}')
 
@@ -15,4 +15,4 @@ while true; do
   fi
 done
 
-kubectl create -f jbcrawler.yaml
+kubectl create -f kubernetes/jbcrawler.yaml
