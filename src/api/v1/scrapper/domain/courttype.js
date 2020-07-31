@@ -123,7 +123,7 @@ const states = [
                 url: (processId) => `https://esaj.tjms.jus.br/cpopg5/search.do?conversationId=&dadosConsulta.localPesquisa.cdLocal=-1&cbPesquisa=NUMPROC&dadosConsulta.tipoNuProcesso=UNIFICADO&dadosConsulta.valorConsultaNuUnificado=${processId}&pbEnviar=Pesquisar`,
                 parser: (page) => {
                     if (getInnerText(page, '#mensagemRetorno > li') === 'Não existem informações disponíveis para os parâmetros informados.') {
-                        throw new InquiredDocumentNotFoundException('Could not find the specified inquired document.');
+                        return null;
                     }
                     return new APB(page)
                         .fromTableAsEntity('body > div.div-conteudo > table:nth-child(4) > tbody > tr > td > div:nth-child(9) > table.secaoFormBody > tbody > tr', 'processo',
@@ -160,40 +160,8 @@ const states = [
                                     unique: true,
                                 },
                             ])
-                        .fromEntity('#tablePartesPrincipais > tbody > tr:nth-child(1)',
-                            [
-                                {
-                                    keyName: 'partes.exequente.nome',
-                                    keys: ['Autor', 'Autora', 'Exeqte'],
-                                    unique: true,
-                                },
-                                {
-                                    keyName: 'partes.exequente.advogados',
-                                    keys: ['Advogado', 'Advogada'],
-                                    merge: true,
-                                },
-                                {
-                                    keyName: 'partes.exequente.representantes',
-                                    keys: ['RepreLeg', 'Defensor P', 'Defensora P', 'Procurador'],
-                                },
-                            ])
-                        .fromEntity('#tablePartesPrincipais > tbody > tr:nth-child(2)',
-                            [
-                                {
-                                    keyName: 'partes.executado.nome',
-                                    keys: ['Réu', 'Ré', 'Exectdo'],
-                                    unique: true,
-                                },
-                                {
-                                    keyName: 'partes.executado.advogados',
-                                    keys: ['Advogado', 'Advogada'],
-                                    merge: true,
-                                },
-                                {
-                                    keyName: 'partes.executado.representantes',
-                                    keys: ['RepreLeg', 'Defensor P', 'Defensora P', 'Procurador'],
-                                },
-                            ])
+
+                        .fromTableAsGenericEntities('#tablePartesPrincipais > tbody > tr', 'partes')
                         .fromTable('#tabelaTodasMovimentacoes > tr', 'movimentacoes', {
                             data: 'td:nth-child(1)',
                             movimento: 'td:nth-child(3)',
@@ -202,8 +170,26 @@ const states = [
                 },
             },
             second: {
-                url: 'https://esaj.tjms.jus.br/cposg5/open.do',
+                url: (processId) => `https://esaj.tjms.jus.br/cposg5/search.do?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&dePesquisaNuUnificado=${processId}&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO`,
+                parser: (page) => {
+                    if (getInnerText(page, '#mensagemRetorno > li') === 'Não existem informações disponíveis para os parâmetros informados') {
+                        return null;
+                    }
+                    return new APB(page)
+                        .fromSelector('processo.classe', 'body > div.unj-entity-header > div.unj-entity-header__summary > div > div:nth-child(2) > div:nth-child(1) > div > span')
+                        .fromSelector('processo.area', 'body > div.unj-entity-header > div.unj-entity-header__summary > div > div:nth-child(2) > div.col-md-2 > div > span')
+                        .fromSelector('processo.assunto', 'body > div.unj-entity-header > div.unj-entity-header__summary > div > div:nth-child(2) > div.col-md-4 > div > span')
+                        .fromSelector('processo.juiz', 'body > div.div-conteudo.container.unj-mb-40 > table:nth-child(12) > tbody > tr > td:nth-child(4)')
+                        .fromSelector('processo.valor_acao', '#maisDetalhes > div > div:nth-child(2) > div > span')
+                        .fromTableAsGenericEntities('#tablePartesPrincipais > tbody > tr', 'partes')
+                        .fromTable('#tabelaTodasMovimentacoes > tr', 'movimentacoes', {
+                            data: 'td:nth-child(1)',
+                            movimento: 'td:nth-child(3)',
+                        })
+                        .getObject();
+                },
             },
+
         },
         TR: '12',
     },
