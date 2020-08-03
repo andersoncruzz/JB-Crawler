@@ -22,5 +22,6 @@
     "camelcase": "off",
     "no-unused-expressions": "off",
     "quote-props": "error",
+    "prefer-destructuring": "off"
   }
 }

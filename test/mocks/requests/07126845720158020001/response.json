@@ -1,0 +1,144 @@
+{
+  "primeiraInstancia": null,
+  "segundaInstancia": {
+    "processo": {
+      "classe": "Habeas Corpus",
+      "area": "Criminal",
+      "assunto": "Roubo Majorado",
+      "distribuicao": "Câmara Criminal"
+    },
+    "partes": [
+      {
+        "Imp/Defensor": "João Fiorillo de Souza"
+      },
+      {
+        "Paciente": "Etevânio da Silva"
+      },
+      {
+        "Impetrado": "Juiz de Direito da 2ª Vara Criminal da Comarca da Capital"
+      }
+    ],
+    "movimentacoes": [
+      {
+        "data": "10/03/2016",
+        "movimento": "Arquivado Definitivamente"
+      },
+      {
+        "data": "10/03/2016",
+        "movimento": "Certidão Emitida CERTIFICO, que decorreu o prazo para apresentação de recurso ou incidente ao acórdão, sem que houvesse manifestação das partes. Certifico ademais, que em decorrência do trânsito em julgado do presente feito, promovi o ARQUIVAMENTO dos presentes autos."
+      },
+      {
+        "data": "11/01/2016",
+        "movimento": "Juntada de Intimação"
+      },
+      {
+        "data": "11/01/2016",
+        "movimento": "Juntada de Intimação"
+      },
+      {
+        "data": "05/01/2016",
+        "movimento": "Ofício Expedido Ofício TJ/SCC Nº. 744/2015 Maceió, 4 de janeiro de 2016 A Sua Excelência o Senhor Doutor Lean Antônio Ferreira de Araújo Procurador de Justiça Assunto: Ciência do Acórdão. Sessão Extraordinária: 26/11/2015 Senhor Procurador, De ordem do(a) Excelentíssimo(a) Des. José Carlos Malta Marques - Presidente da Câmara Criminal, dou ciência a Vossa Excelência do inteiro teor do venerando Acórdão, proferido nos autos abaixo selecionados: - Desaforamento de Julgamento nº 0500123-22.2014.8.02.0000 - Recurso em Sentido Estrito nº 0000839-14.2009.8.02.0055 - Recurso em Sentido Estrito nº 0724128-58.2013.8.02.0001 - Apelação nº 0000868-68.2012.8.02.0052 - Apelação nº 0001564-48.2005.8.02.0053 - Apelação nº 0700495-77.2014.8.02.0067 - Apelação nº 0031030-10.2009.8.02.0001 - Apelação nº 0001307-33.2013.8.02.0056 - Apelação nº 0024806-51.2012.8.02.0001 - Apelação nº 0000072-80.2013.8.02.0072 - Apelação nº 0000484-67.2014.8.02.0042 - Habeas Corpus nº 0802810-59.2015.8.02.0000 - Habeas Corpus nº 0803823-93.2015.8.02.0000 - Habeas Corpus nº 0803853-31.2015.8.02.0000 - Habeas Corpus nº 0803701-80.2015.8.02.0000 - Habeas Corpus nº 0803982-36.2015.8.02.0000 - Habeas Corpus nº 0803997-05.2015.8.02.0000 - Habeas Corpus nº 0802566-33.2015.8.02.0000 - Habeas Corpus nº 0802436-43.2015.8.02.0000 - Habeas Corpus nº 0803196-89.2015.8.02.0000 - Habeas Corpus nº 0803600-43.2015.8.02.0000 - Habeas Corpus nº 0803692-21.2015.8.02.0000 Respeitosamente, Diogenes Jucá Bernardes Netto Secretário da Câmara Criminal"
+      },
+      {
+        "data": "05/01/2016",
+        "movimento": "Publicado"
+      },
+      {
+        "data": "05/01/2016",
+        "movimento": "Certidão Emitida CERTIFICO que no Diário da Justiça Eletrônico do Estado de Alagoas de 19/12/2015, às págs. 116/176, foi disponibilizada a conclusão do venerando Acórdão, em conformidade com o art. 506 inciso III do Código de Processo Civil. c/c o art. 4º da Lei 11.419, considerando-se publicada em 21/01/2016, de acordo com o Ato Normativo nº. 148/2015. O referido é verdade, dou fé."
+      },
+      {
+        "data": "11/12/2015",
+        "movimento": "Ofício Expedido Ofício TJ/SCC Nº. 733/2015 Maceió, 09 de dezembro de 2015 A Sua Excelência o Senhor Doutor Marcelo Barbosa Arantes Defensor Público Assunto: Ciência do Acórdão. Sessão Ordinária: 26/11/2015 Senhor Defensor, De ordem do(a) Excelentíssimo(a) Des. José Carlos Malta Marques - Presidente da Câmara Criminal, dou ciência a Vossa Excelência do inteiro teor do venerando Acórdão, proferido nos autos abaixo selecionados: - Apelação nº 0700495-77.2014.8.02.0067 - Apelação nº 0727675-09.2013.8.02.0001 - Apelação nº 0000049-65.2011.8.02.0053 - Apelação nº 0700255-87.2015.8.02.0056 - Apelação nº 0000893-25.2005.8.02.0053 - Apelação nº 0000373-41.2014.8.02.0056 - Apelação nº 0001386-15.2013.8.02.0055 - Apelação nº 0024806-51.2012.8.02.0001 - Apelação nº 0500337-15.2011.8.02.0001 - Apelação nº 0000484-67.2014.8.02.0042 - Habeas Corpus nº 0802469-33.2015.8.02.0000 - Habeas Corpus nº 0802583-69.2015.8.02.0000 - Habeas Corpus nº 0802810-59.2015.8.02.0000 - Habeas Corpus nº 0803091-15.2015.8.02.0000 - Habeas Corpus nº 0803266-09.2015.8.02.0000 - Habeas Corpus nº 0803617-79.2015.8.02.0000 - Habeas Corpus nº 0803766-75.2015.8.02.0000 - Habeas Corpus nº 0803796-13.2015.8.02.0000 - Habeas Corpus nº 0803834-25.2015.8.02.0000 - Habeas Corpus nº 0803853-31.2015.8.02.0000 - Habeas Corpus nº 0803946-91.2015.8.02.0000 - Habeas Corpus nº 0802748-19.2015.8.02.0000 - Habeas Corpus nº 0803229-79.2015.8.02.0000 - Habeas Corpus nº 0803775-37.2015.8.02.0000 - Habeas Corpus nº 0802760-33.2015.8.02.0000 - Habeas Corpus nº 0803591-81.2015.8.02.0000 - Habeas Corpus nº 0803915-71.2015.8.02.0000 - Habeas Corpus nº 0803997-05.2015.8.02.0000 - Habeas Corpus nº 0804052-53.2015.8.02.0000 - Habeas Corpus nº 0803016-73.2015.8.02.0000 - Habeas Corpus nº 0802275-33.2015.8.02.0000 - Habeas Corpus nº 0804187-65.2015.8.02.0000 - Habeas Corpus nº 0802566-33.2015.8.02.0000 - Habeas Corpus nº 0804348-75.2015.8.02.0000 - Habeas Corpus nº 0801374-65.2015.8.02.0000 - Habeas Corpus nº 0801684-71.2015.8.02.0000 - Habeas Corpus nº 0802436-43.2015.8.02.0000 - Habeas Corpus nº 0802985-53.2015.8.02.0000 - Habeas Corpus nº 0803077-31.2015.8.02.0000 - Habeas Corpus nº 0803150-03.2015.8.02.0000 - Habeas Corpus nº 0803196-89.2015.8.02.0000 - Habeas Corpus nº 0803231-49.2015.8.02.0000 - Habeas Corpus nº 0803453-17.2015.8.02.0000 - Habeas Corpus nº 0803600-43.2015.8.02.0000 - Habeas Corpus nº 0803692-21.2015.8.02.0000 Respeitosamente, Diogenes Jucá Bernardes Netto Secretário da Câmara Criminal"
+      },
+      {
+        "data": "03/12/2015",
+        "movimento": "Ofício Expedido"
+      },
+      {
+        "data": "03/12/2015",
+        "movimento": "Prejudicado o recurso ACORDAM os Desembargadores integrantes da Câmara Criminal do Egrégio Tribunal de Justiça, à unanimidade de votos, em julgar prejudicado o pedido de Habeas Corpus."
+      },
+      {
+        "data": "26/11/2015",
+        "movimento": "Certidão Emitida Certifico que a Câmara Criminal, em sessão Extraordinária hoje realizada, julgou os presentes autos, tendo decidido: À unanimidade de votos, a ordem de habeas corpus foi conhecida para julgá-la prejudicada, nos termos do voto do Relator."
+      },
+      {
+        "data": "26/11/2015",
+        "movimento": "Processo Julgado À unanimidade de votos, a ordem de habeas corpus foi conhecida para julgá-la prejudicada, nos termos do voto do Relator."
+      },
+      {
+        "data": "23/11/2015",
+        "movimento": "Inclusão em pauta Para 26/11/2015"
+      },
+      {
+        "data": "23/11/2015",
+        "movimento": "Processo para a Mesa"
+      },
+      {
+        "data": "21/10/2015",
+        "movimento": "Concluso ao Relator"
+      },
+      {
+        "data": "21/10/2015",
+        "movimento": "Volta da PGJ"
+      },
+      {
+        "data": "21/10/2015",
+        "movimento": "Certidão Emitida Junto aos presentes autos o parecer da Procuradoria Geral de Justiça de páginas 109 a 113 e os faço conclusos nesta data ao Excelentíssimo Senhor Des. Sebastião Costa Filho - Relator."
+      },
+      {
+        "data": "21/10/2015",
+        "movimento": "Juntada de Petição de Nº Protocolo: WTRJ.15.70021231-5Tipo da Petição: ParecerData: 20/10/2015 13:04"
+      },
+      {
+        "data": "08/10/2015",
+        "movimento": "Juntada de Intimação"
+      },
+      {
+        "data": "07/10/2015",
+        "movimento": "Vista / Intimação à PGJ"
+      },
+      {
+        "data": "07/10/2015",
+        "movimento": "Certidão Emitida Certifico para os devidos fins, que juntei aos presentes autos as informações prestadas à pág. 106, e, em cumprimento ao Despacho exarado pelo Exmo. Des. Relator, a Procuradoria Geral de Justiça foi intimada por via eletrônica."
+      },
+      {
+        "data": "07/10/2015",
+        "movimento": "Juntada de Informações"
+      },
+      {
+        "data": "06/10/2015",
+        "movimento": "Certidão Emitida CERTIFICO, que foi disponibilizado no Diário da Justiça Eletrônico do Tribunal de Justiça de Alagoas em 06/10/2015, na página 103, o Despacho de página 102."
+      },
+      {
+        "data": "06/10/2015",
+        "movimento": "Publicado Em 06/10/2015."
+      },
+      {
+        "data": "05/10/2015",
+        "movimento": "Ofício Expedido"
+      },
+      {
+        "data": "05/10/2015",
+        "movimento": "Proferido despacho de mero expediente DESPACHO Requisitem-se informações à autoridade coatora, concedendo-lhe prazo de 72 (setenta e duas) horas. Anexadas as informações, sejam os autos remetidos à douta Procuradoria Geral de Justiça para que oferte seu Parecer. Cumpridas as diligências, voltem-me os autos conclusos. Publique-se e cumpra-se. Maceió, 05 de outubro de 2015 Des. Sebastião Costa Filho Relator"
+      },
+      {
+        "data": "30/09/2015",
+        "movimento": "Concluso ao Relator"
+      },
+      {
+        "data": "30/09/2015",
+        "movimento": "Termo de Distribuição Emitido"
+      },
+      {
+        "data": "30/09/2015",
+        "movimento": "Processo Distribuído por Sorteio NADA CONSTA, NÚMERO ORIGEM.Órgão Julgador: 3 - Câmara CriminalRelator: 49 - Des. Sebastião Costa Filho"
+      },
+      {
+        "data": "30/09/2015",
+        "movimento": "Processo Cadastrado DAAJUC"
+      }
+    ]
+  }
+}

@@ -6,6 +6,10 @@ function getInnerText(page, selector, context) {
   return normalizeHTMLString(page(selector, context).text());
 }
 
+function getInnerTextFromContextOnly(page, context) {
+  return normalizeHTMLString(page(context).text());
+}
+
 function parseEntities(text, delimiter = ':') {
   const shattered = [].concat.apply([], (text.split(delimiter).map((str) => str.split('<>').map(normalizeHTMLString).filter((e) => e.length > 0))));
   const entities = {};
@@ -93,4 +97,5 @@ module.exports = {
   normalizeHTMLString,
   getInnerText,
   getEntities,
+  getInnerTextFromContextOnly,
 };

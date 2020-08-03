@@ -1,0 +1,238 @@
+{
+  "primeiraInstancia": null,
+  "segundaInstancia": {
+    "processo": {
+      "classe": "Apelação",
+      "area": "Cível",
+      "assunto": "Saúde",
+      "distribuicao": "Vice-Presidência",
+      "valor_acao": "2.860,00"
+    },
+    "partes": [
+      {
+        "Apelante": "Defensoria Pública de Alagoas",
+        "Defensor P": [
+          "Eduardo Antônio de Campos Lopes",
+          "Fabrício Leão Souto",
+          "Manuela Carvalho Menezes"
+        ],
+        "Representando o": "Jonatha Nascimento Leal"
+      },
+      {
+        "Recorrente": "Município de Maceió",
+        "Procurador": "Guilherme Emmanuel Lanzillotti Alvarenga"
+      },
+      {
+        "Apelado": "Município de Maceió",
+        "Procurador": "Guilherme Emmanuel Lanzillotti Alvarenga"
+      },
+      {
+        "Recorrido": "Defensoria Pública de Alagoas",
+        "Defensor P": [
+          "Eduardo Antônio de Campos Lopes",
+          "Fabrício Leão Souto",
+          "Manuela Carvalho Menezes"
+        ],
+        "Representando o": "Jonatha Nascimento Leal"
+      }
+    ],
+    "movimentacoes": [
+      {
+        "data": "04/04/2019",
+        "movimento": "Certidão Emitida Certifico que a parte recorrente interpôs agravo da decisão de páginas 247/250, a qual inadmitiu o recurso extraordinário. Maceió, 04 de abril de 2019 Cícera Cristina Lima de Araújo Bandeira Diretora Adjunta Especial de Assuntos Judiciários em Substitução Rubyan Leão Correia de Araujo Oficial de justiça"
+      },
+      {
+        "data": "03/04/2019",
+        "movimento": "Juntada de Petição de Protocolo nº WTRJ.1970005867-0 Agravo"
+      },
+      {
+        "data": "03/04/2019",
+        "movimento": "Incidente Cadastrado Seq.: 50 - Agravo"
+      },
+      {
+        "data": "11/03/2019",
+        "movimento": "Certidão Emitida"
+      },
+      {
+        "data": "25/02/2019",
+        "movimento": "Vista à PGM"
+      },
+      {
+        "data": "22/02/2019",
+        "movimento": "Certidão Emitida CERTIFICO que foi disponibilizada no Diário da Justiça Eletrônico do Tribunal de Justiça de Alagoas em 20/02/2019 a Decisão de páginas 247-250 e considerada publicada em 21/02/2019, nos termos do Artigo 4º, § 3º, da Lei nº 11.419/2006. Maceió, 20 de fevereiro de 2019 Eleonora Paes Cerqueira de França Diretora Adjunta Especial de Assuntos Judiciários José Mozart Lopes Ferreira Assessor Técnico"
+      },
+      {
+        "data": "22/02/2019",
+        "movimento": "Publicado Disponibilizada a publicação no DJE de 20/02/2019."
+      },
+      {
+        "data": "20/02/2019",
+        "movimento": "Publicado Disponibilizada na Publicação no DJE no 20/02/2018"
+      },
+      {
+        "data": "15/02/2019",
+        "movimento": "Recurso Extraordinário não admitido Recurso Extraordinário em Apelação nº 0700144-30.2017.8.02.0090 Recorrente : Município de Maceió Procurador : Guilherme Emmanuel Lanzillotti Alvarenga (OAB: 11673BA/L) Recorrido : Defensoria Pública de Alagoas Representando o : Jonatha Nascimento Leal e outros DECISÃO / MANDADO / OFÍCIO Nº /2019 - GVP 1. Trata-se de recurso extraordinário, interposto pelo Município de Maceió, com fulcro no art. 102, inciso III, alínea \"a\", da Constituição Federal de 1988, contra acórdão proferido pela 1ª Câmara Cível desta Corte de Justiça. 2. O recorrente, em suas razões recursais, nas fls. 223/238, aduziu que o acórdão impugnado teria violado o art. 134, §4º, da Constituição Federal de 1988. 3. Não houve o oferecimento de contrarrazões, conforme consta na certidão à fl. 245. 4. Em seguida, retornaram os autos conclusos para juízo de admissibilidade. É, em síntese, o relatório. Fundamento e decido. 5. Cumpre notar, de pronto, o preenchimento dos requisitos genéricos, objetivos e subjetivos de admissibilidade do recurso extraordinário, porquanto comprovadas a tempestividade, o cabimento, a regularidade formal, legitimidade das partes, o interesse de agir e a inexistência de fato impeditivo ou extintivo do poder de recorrer. Além disso, nos termos do art. 1.007, §1º, do novo Código de Processo Civil, o recorrente está isento de preparo, por se tratar de fazenda pública municipal. 6. Além disso, como é cediço, a interposição dos recursos excepcionais pressupõe o esgotamento das vias ordinárias. Assim sendo, os recursos extraordinário e especial implicam a existência de um julgado contra o qual já foram esgotadas as possibilidades de impugnacão na instância ordinária, requisito que se encontra preenchido no caso. 7. Por outro lado, somando-se aos requisitos genéricos de admissibilidade, nos termos do art. 102, §3°, da Constituição Federal, e art. 327, §1°, do RISTF Regimento Interno do Supremo Tribunal Federal, com a redação dada pela Emenda Regimental n.º 21/2007, o recurso extraordinário possui um requisito peculiar, que é a preliminar formal de repercussão geral. Observe-se o que dispõe o texto constitucional, in verbis. Art. 102. Compete ao Supremo Tribunal Federal, precipuamente, a guarda da Constituição, cabendo-lhe: [...] §3° No recurso extraordinário o recorrente deverá demonstrar a repercussão geral das questões constitucionais discutidas no caso, nos termos da lei, a fim de que o Tribunal examine a admissão do recurso, somente podendo recusá-lo pela manifestação de dois terços de seus membros. (Grifos aditados) 8. Nessa linha, claro está que é ônus do recorrente demonstrar que há repercussão geral na matéria que pretende discutir em sede de recurso extraordinário, sendo necessário indicar que a discussão vai além dos interesses individuais das partes. Nesse sentido, é o posicionamento do próprio Supremo Tribunal Federal, a saber: PROCESSUAL CIVIL. AGRAVO REGIMENTAL EM RECURSO EXTRAORDINÁRIO. DEFICIÊNCIA NA FUNDAMENTAÇÃO DA PRELIMINAR DE REPERCUSSÃO GERAL. ÔNUS DO RECORRENTE. INSUFICIÊNCIA DO RECURSO QUANTO AOS FUNDAMENTOS DO JULGADO. SÚMULAS 283 E 284 DO STF. AGRAVO REGIMENTAL A QUE SE NEGA PROVIMENTO. (STF - RE: 650918 DF, Segunda Turma, Relator: Min. TEORI ZAVASCKI, Data de Julgamento: 19/08/2014 sem grifos no original). PROCESSUAL CIVIL E ADMINISTRATIVO. AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO. PRELIMINAR DE REPERCUSSÃO GERAL. FUNDAMENTAÇÃO DEFICIENTE. ÔNUS DO RECORRENTE. SERVIDOR PÚBLICO. LEI ESTADUAL 8.369/2006. NATUREZA DE REVISÃO GERAL ANUAL DA REMUNERAÇÃO. ANÁLISE DE LEGISLAÇÃO LOCAL. INVIABILIDADE. SÚMULA 280/STF. AGRAVO REGIMENTAL A QUE SE NEGA PROVIMENTO. (STF - ARE: 841197 MA, Segunda Turma, Relator: Min. TEORI ZAVASCKI, Data de Julgamento: 18/11/2014 sem grifos no original). 9. Ocorre que falece de competência do Tribunal de Origem analisar a existência ou não de repercussão geral, sendo o Supremo Tribunal Federal o único órgão competente para proferir juízo de valor nesse sentido, razão pela qual passo a analisar os demais requisitos de admissibilidade. 10. Seguindo com as exigências legais, necessário se faz demonstrar uma das hipóteses constitucionais de cabimento autorizadoras de seu manejo. No caso, alegou o recorrente que o presente recurso merece ser acolhido porque preenche os requisitos previstos no art. 102, inciso III, alínea \"a\", da Constituição Federal de 1988. 11. Pois bem. O recorrente, em suas razões recursais, sustentou que houve violação ao art. 134, §4º, da Constituição Federal de 1988, na medida em que o acórdão impugnado manteve a condenação do Município ao pagamento de honorários advocatícios em favor da Defensoria Pública. 12. No entanto, percebo que a alegada violação é meramente reflexa à Constituição, uma vez que necessita da análise de normas infraconstitucionais. 13. Conforme reiterada jurisprudência do Supremo Tribunal Federal, é inviável a apreciação, em sede de recurso extraordinário, de alegada violação a dispositivo da Constituição Federal que, por não prescindir do exame de normas infraconstitucionais, se houvesse, seria meramente indireta ou reflexa. Nesse sentido: ARE 670.626-AgR, Primeira Turma, rel. Min. ROSA WEBER, DJe de 06/02/2013; ARE 746.649-AgR, Segunda Turma, rel. Min GILMAR MENDES, DJe de 24/6/2013. 14. Cito, inclusive, julgado da referida Corte, em caso semelhante: PROCESSUAL CIVIL. AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO. PRELIMINAR DE REPERCUSSÃO GERAL. FUNDAMENTAÇÃO DEFICIENTE. ÔNUS DA PARTE RECORRENTE. CONDENAÇÃO AO PAGAMENTO DE HONORÁRIOS ADVOCATÍCIOS EM FAVOR DA DEFENSORIA PÚBLICA. OFENSA CONSTITUCIONAL MERAMENTE REFLEXA. AGRAVO REGIMENTAL A QUE SE NEGA PROVIMENTO.(ARE 795813 AgR, Relator(a):  Min. TEORI ZAVASCKI, Segunda Turma, julgado em 03/06/2014, ACÓRDÃO ELETRÔNICO DJe-116 DIVULG 16-06-2014 PUBLIC 17-06-2014 sem grifos no original). 15. Para além, e para reforçar o entendimento aqui exposto, relembro que o STF, na análise do RE 592.730 RG/RS (Rel. Min. Menezes Direito, Tema 134, Plenário, Dje de 21.11.2008), já decidiu que não há repercussão geral da matéria pela falta de relevância jurídica, econômica, social ou política (tema 134). 16. Por tais razões, inadmito o recurso extraordinário. 17. Transitado em julgado esta decisão, remetam-se os autos ao juízo de origem para que sejam adotadas as providências cabíveis. 18. Publique-se. Intimem-se, utilizando essa decisão como mandado/ofício. Maceió/AL, 12 de fevereiro de 2019. Desembargador SEBASTIÃO COSTA FILHO Vice-Presidente do Tribunal de Justiça de Alagoas"
+      },
+      {
+        "data": "04/02/2019",
+        "movimento": "Concluso à Vice - Presidência"
+      },
+      {
+        "data": "04/02/2019",
+        "movimento": "Certidão Emitida CONCLUSÃO Faço estes autos conclusos ao Excelentíssimo Senhor Des. Sebastião Costa Filho - Vice - Presidente. Maceió, 4 de fevereiro de 2019 Eleonora Paes Cerqueira de França Diretora Adjunta Especial de Assuntos Judiciários Cícera Cristina Lima de Araújo Bandeira Analista Judiciário"
+      },
+      {
+        "data": "04/02/2019",
+        "movimento": "Realizada Alteração de Relatoria Orgão Julgador Anterior: PresidênciaOrgão Julgador Novo: Vice-PresidênciaRelator Anterior: Des. Otávio Leão PraxedesRelator Novo: Des. Sebastião Costa FilhoMotivo da alteração: Ato Normativo n. 02 de 07/1/2019."
+      },
+      {
+        "data": "04/02/2019",
+        "movimento": "Processo Redistribuído Antigo órgão julgador: PresidênciaAntigo relator: Des. Otávio Leão Praxedes"
+      },
+      {
+        "data": "04/02/2019",
+        "movimento": "Certidão Emitida CERTIDÃO DE DECURSO DE PRAZO Certifico que decorreu o prazo sem que a parte recorrida apresentasse às contrarrazões. Maceió, 4 de fevereiro de 2019. Eleonora Paes Cerqueira de França Diretora Adjunta Especial de Assuntos Judiciários Cícera Cristina Lima de Araújo Bandeira Analista Judiciário"
+      },
+      {
+        "data": "07/12/2018",
+        "movimento": "Retificação de Prazo, devido feriado Prazo referente ao usuário foi alterado para 31/01/2019 devido à alteração da tabela de feriados"
+      },
+      {
+        "data": "19/11/2018",
+        "movimento": "Certidão Emitida"
+      },
+      {
+        "data": "06/11/2018",
+        "movimento": "Vista à Defensoria Pública"
+      },
+      {
+        "data": "11/05/2018",
+        "movimento": "Certidão Emitida CERTIFICO, que foi disponibilizado no Diário da Justiça Eletrônico do Tribunal de Justiça de Alagoas em 10/05/2018 o despacho de página 241 e considerado publicado em 11/05/2018, nos termos do Artigo 4º, § 3º, da Lei nº 11.419/2006. Maceió, 11 de maio de 2018 Cícera Cristina Lima de Araújo Bandeira Diretora Adjunta Especial de Assuntos Judiciários - Substituta Cláudia Márcia Lima de Araújo Analista Judiciário"
+      },
+      {
+        "data": "10/05/2018",
+        "movimento": "Publicado Disponibilizado despacho de página 241 no DJE de 10/05/2018."
+      },
+      {
+        "data": "10/05/2018",
+        "movimento": "Despacho \"Intime-se a parte recorrida para, no prazo legal, oferecer contrarrazões ao(s) recurso(s)...\""
+      },
+      {
+        "data": "09/05/2018",
+        "movimento": "Encaminhado à Secretaria"
+      },
+      {
+        "data": "09/05/2018",
+        "movimento": "Proferido despacho de mero expediente DESPACHO / MANDADO / OFÍCIO Nº______ / 2018 - JAP. Intime-se a parte recorrida para, no prazo legal, oferecer contrarrazões ao(s) recurso(s). Cumpridas as formalidades de praxe, retornem os autos conclusos. Publique-se. Intimem-se. Maceió/AL, 08 de maio de 2018. YGOR VIEIRA DE FIGUEIRÊDO Juiz Auxiliar da Presidência HÉLIO PINHEIRO PINTO Juiz Auxiliar da Presidência"
+      },
+      {
+        "data": "08/05/2018",
+        "movimento": "Concluso à Presidência"
+      },
+      {
+        "data": "08/05/2018",
+        "movimento": "Certidão Emitida CONCLUSÃO Faço estes autos conclusos ao Excelentíssimo Senhor Des. Otávio Leão Praxedes - Presidente, em face da interposição do Recurso Extraordinário. Maceió, 8 de maio de 2018 Cícera Cristina Lima de Araújo Bandeira Diretora Adjunta Especial de Assuntos Judiciários - Substituta José Mozart Lopes Ferreira Assessor Técnico"
+      },
+      {
+        "data": "07/05/2018",
+        "movimento": "Realizada Alteração de Relatoria Orgão Julgador Anterior: 1ª Câmara CívelOrgão Julgador Novo: PresidênciaRelator Anterior: Des. Fábio José Bittencourt AraújoRelator Novo: Des. Otávio Leão PraxedesMotivo da alteração: Interposição Recurso Extraordinário"
+      },
+      {
+        "data": "07/05/2018",
+        "movimento": "Processo Redistribuído Antigo órgão julgador: 1ª Câmara CívelAntigo relator: Des. Fábio José Bittencourt Araújo"
+      },
+      {
+        "data": "07/05/2018",
+        "movimento": "Interposto Recurso Extraordinário Recurso Extraordinário 02-04-2018"
+      },
+      {
+        "data": "02/05/2018",
+        "movimento": "Encaminhado para Secretaria da Presidência"
+      },
+      {
+        "data": "02/05/2018",
+        "movimento": "Certidão Emitida CERTIDÃO/REMESSA Certifico para os devidos fins, que houve interposição de Recurso Extraordinário ao Acórdão às páginas 206/217. Certifico ainda, que até a presente data somente a parte apelada Município de Maceió apresentou recurso ao Acórdão mencionado. Certifico mais, que nesta data, faço remessa dos autos em epígrafe à DAAJUC. Maceió, 2 de maio de 2018 Belª. Margarida Maria Melo Secretário(a) da 1ª Câmara Cível"
+      },
+      {
+        "data": "02/04/2018",
+        "movimento": "Juntada de Petição de Nº Protocolo: WTRJ.18.70004900-0Tipo da Petição: Recurso Extraordinário CívelData: 29/03/2018 00:07"
+      },
+      {
+        "data": "14/03/2018",
+        "movimento": "Certidão Emitida"
+      },
+      {
+        "data": "14/03/2018",
+        "movimento": "Certidão Emitida"
+      },
+      {
+        "data": "02/03/2018",
+        "movimento": "Vista à PGM"
+      },
+      {
+        "data": "02/03/2018",
+        "movimento": "Vista à Defensoria Pública"
+      },
+      {
+        "data": "02/03/2018",
+        "movimento": "Publicado"
+      },
+      {
+        "data": "02/03/2018",
+        "movimento": "Certidão Emitida CERTIDÃO Certifico que, no Diário da Justiça Eletrônico do Estado de Alagoas de 02/03/2018 foi disponibilizada a conclusão do acórdão retro, considerada publicada em 05/03/2018 , nos termos do art. 943, §2º, do CPC c/c o art 4º. §3º, da Lei nº 11.419/2006. O referido é verdade, dou fé. Maceió, 2 de março de 2018. Belª. Margarida Maria Melo Secretário(a) da 1ª Câmara Cível"
+      },
+      {
+        "data": "28/02/2018",
+        "movimento": "Conhecido o recurso de ACORDAM os Desembargadores integrantes da 1ª Câmara Cível do Tribunal de Justiça do Estado de Alagoas, à unanimidade de votos, em CONHECER dos apelos interpostos para, no mérito, e por idêntica votação, NEGAR PROVIMENTO ao recurso do Município de Maceió e DAR PROVIMENTO à apelação da Defensoria Pública Estadual, unicamente no sentido de majorar a verba honorária, fixada na sentença em R$250,00 (duzentos e cinquenta reais), para o importe de R$ 475,00 (quatrocentos e setenta e cinco reais), acrescida de honorários recursais no valor de R$ 75,00 (setenta e cinco reais), totalizando a importância de R$ 550,00 (quinhentos e cinquenta reais), tudo nos termos do voto do Relator."
+      },
+      {
+        "data": "28/02/2018",
+        "movimento": "Certidão Emitida TRIBUNAL DE JUSTIÇA 1ª Câmara Cível CERTIDÃO DE JULGAMENTO 0700144-30.2017.8.02.0090 Apelação Maceió Apelante: Defensoria Pública de AlagoasRepresentando o: Jonatha Nascimento Leal e outrosApelante: Município de MaceióProcurador: Guilherme Emmanuel Lanzillotti Alvarenga (OAB: 11673BA/L)Apelado: Município de MaceióApelado: Defensoria Pública de AlagoasRepresentando o: Jonatha Nascimento Leal e outros Relator: Des. Fábio José Bittencourt Araújo Origem: Maceió Certifico que a 1ª Câmara Cível, em sessão Ordinária hoje realizada, julgou os presentes autos, tendo decidido: Por unanimidade de votos, em CONHECER dos apelos interpostos para, no mérito, e por idêntica votação, NEGAR PROVIMENTO ao recurso do Município de Maceió e DAR PROVIMENTO à apelação da Defensoria Pública Estadual, unicamente no sentido de majorar a verba honorária, fixada na sentença em R$250,00 (duzentos e cinquenta reais), para o importe de R$ 475,00 (quatrocentos e setenta e cinco reais), acrescida de honorários recursais no valor de R$ 75,00 (setenta e cinco reais), totalizando a importância de R$ 550,00 (quinhentos e cinquenta reais), tudo nos termos do voto do Relator. Tomaram parte no julgamento: Des. Fábio José Bittencourt Araújo, Desa. Elisabeth Carvalho Nascimento e Desembargador Fernando Tourinho de Omena Souza. Presidiu a sessão o Exmo. Senhor Des. Fábio José Bittencourt Araújo. Para constar, lavro a presente certidão, do que dou fé. Maceió, 28 de fevereiro de 2018. Belª. Margarida Maria Melo Secretário(a) da 1ª Câmara Cível"
+      },
+      {
+        "data": "28/02/2018",
+        "movimento": "Processo Julgado Por unanimidade de votos, em CONHECER dos apelos interpostos para, no mérito, e por idêntica votação, NEGAR PROVIMENTO ao recurso do Município de Maceió e DAR PROVIMENTO à apelação da Defensoria Pública Estadual, unicamente no sentido de majorar a verba honorária, fixada na sentença em R$250,00 (duzentos e cinquenta reais), para o importe de R$ 475,00 (quatrocentos e setenta e cinco reais), acrescida de honorários recursais no valor de R$ 75,00 (setenta e cinco reais), totalizando a importância de R$ 550,00 (quinhentos e cinquenta reais), tudo nos termos do voto do Relator."
+      },
+      {
+        "data": "26/02/2018",
+        "movimento": "Publicado"
+      },
+      {
+        "data": "23/02/2018",
+        "movimento": "Ofício Expedido Ofício 1ª CC nº 229/2018 Maceió, 23 de fevereiro de 2018. Exmo. Sr. Defensor, Dr. Eduardo Antônio de Campos Lopes Assunto: Ciência de Dia para Julgamento Exmo. Senhor Defensor, Cumpre-me dar conhecimento a Vossa Excelência, que na Sessão Ordinária Nº 31, a realizar-se no dia 28 de fevereiro de 2018, às 09:30 horas, no auditório Desembargador Gerson Omena Bezerra, situado no Edifício Sede de Justiça do Estado de Alagoas Desembargador Edgar Valente de Lima, serão julgados os autos: 8 Classe do Processo: Apelação&&nbsp 0000724-90.2013.8.02.0042 22 Classe do Processo: Apelação&&nbsp 0004872-20.2006.8.02.0001 24 Classe do Processo: Apelação&&nbsp 0001790-63.2013.8.02.0056 28 Classe do Processo: Apelação&&nbsp 0715260-28.2012.8.02.0001 29 Classe do Processo: Apelação&&nbsp 0002420-50.2012.8.02.0058 31 Classe do Processo: Apelação&&nbsp 0016144-35.2011.8.02.0001 35 Classe do Processo: Apelação&&nbsp 0706575-32.2012.8.02.0001 36 Classe do Processo: Apelação&&nbsp 0703342-27.2012.8.02.0001 37 Classe do Processo: Apelação&&nbsp 0700067-21.2017.8.02.0090 38 Classe do Processo: Apelação&&nbsp 0700388-90.2016.8.02.0090 39 Classe do Processo: Apelação&&nbsp 0700144-30.2017.8.02.0090 40 Classe do Processo: Apelação&&nbsp 0700220-88.2016.8.02.0090 41 Classe do Processo: Apelação&&nbsp 0716921-08.2013.8.02.0001 42 Classe do Processo: Apelação&&nbsp 0717547-27.2013.8.02.0001 43 Classe do Processo: Apelação&&nbsp 0700479-83.2016.8.02.0090 44 Classe do Processo: Apelação&&nbsp 0700116-96.2016.8.02.0090 45 Classe do Processo: Apelação&&nbsp 0709930-16.2013.8.02.0001 46 Classe do Processo: Apelação&&nbsp 0700266-77.2016.8.02.0090 47 Classe do Processo: Apelação&&nbsp 0700406-14.2016.8.02.0090 51 Classe do Processo: Apelação / Reexame Necessário 0701051-54.2012.8.02.0001 Belª. Margarida Maria Melo Secretária da 1ª Câmara Cível"
+      },
+      {
+        "data": "09/02/2018",
+        "movimento": "Certidão Emitida Apelante: Defensoria Pública de AlagoasRepresentando o: Jonatha Nascimento Leal e outrosApelante: Município de MaceióProcurador: Guilherme Emmanuel Lanzillotti Alvarenga (OAB: 11673BA/L)Apelado: Município de MaceióApelado: Defensoria Pública de AlagoasRepresentando o: Jonatha Nascimento Leal e outros TERMO DE CERTIDÃO Certifico que, nos termos do Ato Normativo nº 01/2012, o presente processo foi incluído na pauta de julgamento do dia 28 de fevereiro de 2018, disponibilizado no Diário de Justiça Eletrônico no dia 09 de fevereiro de 2018, tendo sido a mesma afixada no mural informativo jurisdicional desta Corte de Justiça. Maceió, 9 de fevereiro de 2018. Belª. Margarida Maria Melo Secretária da 1ª Câmara Cível"
+      },
+      {
+        "data": "06/02/2018",
+        "movimento": "Inclusão em pauta Para 28/02/2018"
+      },
+      {
+        "data": "30/01/2018",
+        "movimento": "Solicitação de dia para Julgamento - Relator Estando o processo em ordem, peço inclusão na pauta de julgamento subsequente."
+      },
+      {
+        "data": "30/01/2018",
+        "movimento": "Concluso ao Relator"
+      },
+      {
+        "data": "30/01/2018",
+        "movimento": "Termo de Distribuição Emitido"
+      },
+      {
+        "data": "30/01/2018",
+        "movimento": "Processo Distribuído por Sorteio NADA CONSTAÓrgão Julgador: 1 - 1ª Câmara CívelRelator: 11244 - Des. Fábio José Bittencourt Araújo"
+      },
+      {
+        "data": "30/01/2018",
+        "movimento": "Processo Cadastrado DAAJUC"
+      },
+      {
+        "data": "09/01/2018",
+        "movimento": "Recebidos os Autos pela Entrada de Recursos Foro de origem: 28ª Vara Infância e Juventude da CapitalVara de origem: 28º Vara Infância e Juventude da Capital"
+      }
+    ]
+  }
+}
