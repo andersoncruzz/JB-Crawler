@@ -2,9 +2,19 @@ const nock = require('nock');
 const fs = require('fs');
 const path = require('path');
 const {findStateFromTRCode} = require('../../src/api/v1/scrapper/domain/courttype');
+const {URL} = require('url');
 
 function mock() {
     const mockRequestPath = path.resolve(__dirname, './requests');
+    const extraMockRequestPath = path.resolve(__dirname, './extra-mocks');
+
+    fs.readdirSync(extraMockRequestPath).forEach(folder => {
+        const requestFolder = path.resolve(extraMockRequestPath, folder);
+        const url = new URL(decodeURIComponent(folder));
+        nock(url.origin)
+            .get(`${url.pathname}${url.search}`)
+            .reply(200, fs.readFileSync(path.resolve(requestFolder, './response')));
+    })
 
     fs.readdirSync(mockRequestPath).forEach((folder) => {
         const state = findStateFromTRCode(folder);

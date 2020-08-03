@@ -15,7 +15,7 @@ describe('Brands FindAll Controller', () => {
             it(`Recover AL document ${folder}`, async () => {
                 const {
                     body, ok, status, type,
-                } = await global.request.get(`/rest/v1/inquiry/${folder}`);
+                } = await global.request.get(`/rest/v1/inquiry/${folder}?follow=true`);
                 expect(ok).to.equal(true);
                 expect(status).to.equal(200);
                 expect(type).to.equal('application/json');
