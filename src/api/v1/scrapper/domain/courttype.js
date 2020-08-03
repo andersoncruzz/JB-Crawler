@@ -26,7 +26,7 @@ const states = [
 
           const childProcesses = page('a[class=linkProcesso]');
           if (childProcesses.length > 0) {
-            return { _subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
+            return { subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
           }
 
           return new APB(page)
@@ -81,7 +81,7 @@ const states = [
 
           const childProcesses = page('a[class=linkProcesso]');
           if (childProcesses.length > 0) {
-            return { _subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
+            return { subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
           }
 
           return new APB(page)
@@ -143,7 +143,7 @@ const states = [
 
           const childProcesses = page('a[class=linkProcesso]');
           if (childProcesses.length > 0) {
-            return { _subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
+            return { subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
           }
 
           return new APB(page)
@@ -199,7 +199,7 @@ const states = [
 
           const childProcesses = page('a[class=linkProcesso]');
           if (childProcesses.length > 0) {
-            return { _subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
+            return { subprocessos: childProcesses.toArray().map((a) => getInnerTextFromContextOnly(page, a)) };
           }
 
           return new APB(page)

@@ -25,12 +25,6 @@ O serviço possui uma única rota
 **Parameters**
 - `:process-id`: número do processo
 
-**Queries**
-- `follow`: flag para consumir os subprocessos caso seja incluída como `true`
- *Exemplo*: `http://localhost:3000/rest/v1/inquiry/0710802-55.2018.8.02.0001?follow=true`
-
-
-
 # Testes
 
 Utilizando Mocha com BDD
